@@ -1,0 +1,3 @@
+{"event": "request_start", "iteration": 0, "phase": "measure", "device_monotonic_ns": 325152794386316, "device_wall_ms": 1792191982408}
+{"event": "request_start", "iteration": 1, "phase": "measure", "device_monotonic_ns": 325154192065898, "device_wall_ms": 1792191983805}
+{"event": "request_start", "iteration": 2, "phase": "measure", "device_monotonic_ns": 325155432343971, "device_wall_ms": 1792191985046}

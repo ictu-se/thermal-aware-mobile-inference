@@ -1,0 +1,12 @@
+{
+  "recorded_utc": "2026-10-16T09:14:35.711250+00:00",
+  "source": "User report in current conversation, 16 October 2026",
+  "case_state": "removed",
+  "fold_state": "unfolded",
+  "support_surface": "table; material not specified",
+  "air_conditioner_setpoint_c": 26,
+  "ambient_measured_c": null,
+  "ambient_instrument": "not_reported",
+  "ventilation_detail": "air-conditioned room; airflow not measured",
+  "phone_use_policy": "Requested stationary and no interaction during acquisition"
+}

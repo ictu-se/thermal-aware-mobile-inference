@@ -1,0 +1,5 @@
+{
+  "returncode": 0,
+  "stdout": "{\n  \"status\": \"complete\",\n  \"valid_requests_by_kind\": {\n    \"overhead\": 1\n  },\n  \"repeated_outcomes\": {}\n}\n",
+  "stderr": ""
+}

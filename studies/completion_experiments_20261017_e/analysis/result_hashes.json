@@ -1,0 +1,11 @@
+{
+  "runs/c17e-clock/results.jsonl": "2659bcc3123173f57024f033e561581887ef53dfc2a4954e7fd4a07e088b9265",
+  "runs/c17e-p0-overhead-0-fastvlm-sm8750-minimal/results.jsonl": "aab1e623cbeff37fa66e8f895e1748899f4318f0969ed35d05a205933fe2bfbf",
+  "runs/c17e-p0-overhead-1-fastvlm-sm8750-full/results.jsonl": "b200802a3fcd695229ff9a98b9613eeb4839b97846ebacce495550aeb2026648",
+  "runs/c17e-p1-overhead-0-gemma4-sm8750-full/results.jsonl": "82e9cc2bbe5ff0129e577de0be5a9d20eeeb0ac1b066818ed18654a7aae5b673",
+  "runs/c17e-p1-overhead-1-gemma4-sm8750-minimal/results.jsonl": "37082e006e542205d9e4ad34f4409e29831b6a332cfdee0c4c7cb38bc6f3adb5",
+  "runs/c17e-p2-main-0-gemma4-sm8750-full/results.jsonl": "1bbbd3e0995e6a7a8c0ee39cbceffe5f27cfd147b6f03a578f0b631907f6753f",
+  "runs/c17e-p2-main-1-fastvlm-sm8750-full/results.jsonl": "cf371e4b19f6ddf376ffcdbe46f8e0f99523926611b938f000ae6246798ced7f",
+  "runs/c17e-profile-fixed-fastvlm-sm8750/results.jsonl": "f575fc14693a237e237aea763454b7defd0c20eae67381076c8937c3d4a01f4c",
+  "runs/c17e-profile-fixed-gemma4-sm8750/results.jsonl": "584248670f94d1e91a3c4368fb090a774fc6f4b831c96f29c0adc7b4be25512b"
+}

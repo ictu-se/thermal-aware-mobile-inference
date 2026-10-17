@@ -1,0 +1,2 @@
+run,kind,model,block,segment,workload,monitoring,start_ns,duration_s,actual_prefill,actual_decode,decode_tps,start_skin,start_battery_hal,start_nsp0,start_severity
+c17d-p0-overhead-0-fastvlm-sm8750-minimal,overhead,fastvlm-sm8750,0,initial,short,minimal,365615561544777,1.731551301,128,64,83.47997362455452,28.998,30.0,30.8,0

@@ -1,0 +1,7 @@
+Acquisition status: complete
+Completed main pairs: 0 / 60
+Completed full/minimal pairs: 0 / 40
+Retained repeated-use trajectories: 0 / 12
+Repeated outcomes: {}
+Addresses measurement overhead and thermal/recovery observations; no claim that all reviewer requests are resolved.
+Single handset, external power, actual ambient temperature unmeasured; separate acquisition with upper-only global baseline bounds and symmetric within-pair multi-sensor matching. Explicit pause/resume creates separate labeled acquisition segments, not independent environmental resets. Minimal telemetry is not zero overhead. No independent NPU placement proof.

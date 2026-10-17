@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-17T12:21:21.448139+00:00",
+  "setting": "global/stay_on_while_plugged_in",
+  "original": "0",
+  "temporary": "3",
+  "verified": "3",
+  "phase": "before calibration or any inference request",
+  "restore_after_acquisition": true
+}

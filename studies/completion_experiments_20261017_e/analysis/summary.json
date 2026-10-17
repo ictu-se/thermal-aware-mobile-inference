@@ -1,0 +1,93 @@
+{
+  "acquisition_status": "complete",
+  "fixed_work_individual": {
+    "gemma4-sm8750 / short": {
+      "n": 1,
+      "mean_s": 2.362463593,
+      "median_s": 2.362463593,
+      "sd_s": null
+    },
+    "fastvlm-sm8750 / short": {
+      "n": 1,
+      "mean_s": 1.426235885,
+      "median_s": 1.426235885,
+      "sd_s": null
+    }
+  },
+  "long_sessions": [],
+  "overhead_pairs": [
+    {
+      "unit": "c17e-p0-overhead",
+      "full_s": 1.472714687,
+      "minimal_s": 1.700159426,
+      "difference_s": -0.22744473899999984
+    },
+    {
+      "unit": "c17e-p1-overhead",
+      "full_s": 8.66612333,
+      "minimal_s": 7.597958486,
+      "difference_s": 1.068164844
+    }
+  ],
+  "excluded": [],
+  "units": [
+    {
+      "id": "c17e-p0-overhead",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "c17e-p0-overhead-0-fastvlm-sm8750-minimal",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "c17e-p0-overhead-1-fastvlm-sm8750-full",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "initial",
+      "starting_skin_difference": 0.0030000000000001137
+    },
+    {
+      "id": "c17e-p1-overhead",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "c17e-p1-overhead-0-gemma4-sm8750-full",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "c17e-p1-overhead-1-gemma4-sm8750-minimal",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "initial",
+      "starting_skin_difference": 0.26899999999999835
+    },
+    {
+      "id": "c17e-p2-main",
+      "kind": "main",
+      "members": [
+        {
+          "run": "c17e-p2-main-0-gemma4-sm8750-full",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "c17e-p2-main-1-fastvlm-sm8750-full",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "initial",
+      "starting_skin_difference": 0.19500000000000028
+    }
+  ],
+  "note": "Descriptive live summary; unmatched main points are individual-only. Paired/block analysis and figure regeneration required after acquisition."
+}

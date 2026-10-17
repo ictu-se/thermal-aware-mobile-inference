@@ -1,0 +1,242 @@
+{
+  "utc": "2026-10-16T23:12:30.167127+00:00",
+  "status": "complete",
+  "results": [
+    {
+      "run": "u16-profile-fixed-fastvlm-sm8750",
+      "starting_state": {
+        "skin": 28.12,
+        "battery_hal": 29.0,
+        "nsp0": 30.1,
+        "channels": {
+          "battery": 29.0,
+          "nsp6": 30.5,
+          "nsp5": 30.5,
+          "nsp4": 30.5,
+          "nsp3": 30.5,
+          "nsp1": 30.5,
+          "GPU6": 30.5,
+          "GPU4": 30.1,
+          "GPU2": 30.1,
+          "CPU5": 31.2,
+          "CPU4": 30.5,
+          "nsp2": 30.5,
+          "CPU7": 30.5,
+          "GPU7": 30.1,
+          "CPU3": 30.5,
+          "nsp0": 30.1,
+          "CPU6": 30.5,
+          "GPU5": 30.1,
+          "CPU2": 30.5,
+          "GPU0": 30.1,
+          "GPU1": 30.1,
+          "CPU0": 30.5,
+          "GPU3": 30.1,
+          "CPU1": 31.2,
+          "skin": 28.12
+        },
+        "severity": 0,
+        "override": false,
+        "battery_level": 100,
+        "externally_powered": true
+      },
+      "outcome": "captured",
+      "trace_sha256": "3b4416d5b6fb51e54d8707d6be6e4850be9f92b854337467bf4661f24dfa08d9",
+      "trace_bytes": 8451763,
+      "application_validation": {
+        "passed": true,
+        "issues": [],
+        "rows": 3,
+        "phase_rows": {
+          "warmup": 0,
+          "measure": 3
+        },
+        "backend_independently_verified": false
+      },
+      "independent_npu_operator_placement_verified": false,
+      "query_returncodes": {
+        "phases": 0,
+        "app_cpu": 0,
+        "loss_stats": 0,
+        "frequency": 0
+      }
+    },
+    {
+      "run": "u16-profile-fixed-gemma4-sm8750",
+      "starting_state": {
+        "skin": 28.408,
+        "battery_hal": 29.0,
+        "nsp0": 30.5,
+        "channels": {
+          "battery": 29.0,
+          "nsp6": 30.8,
+          "nsp5": 30.8,
+          "nsp4": 31.2,
+          "nsp3": 30.8,
+          "nsp1": 30.8,
+          "GPU6": 30.5,
+          "GPU4": 30.8,
+          "GPU2": 30.5,
+          "CPU5": 31.6,
+          "CPU4": 30.8,
+          "nsp2": 30.8,
+          "CPU7": 30.8,
+          "GPU7": 30.5,
+          "CPU3": 30.8,
+          "nsp0": 30.5,
+          "CPU6": 30.5,
+          "GPU5": 30.8,
+          "CPU2": 30.8,
+          "GPU0": 30.5,
+          "GPU1": 30.8,
+          "CPU0": 30.8,
+          "GPU3": 30.1,
+          "CPU1": 32.0,
+          "skin": 28.408
+        },
+        "severity": 0,
+        "override": false,
+        "battery_level": 100,
+        "externally_powered": true
+      },
+      "outcome": "captured",
+      "trace_sha256": "f9474affa90bcf07187ff37025679f8e2ed3d816b666ab40f7c800433a97586e",
+      "trace_bytes": 8867394,
+      "application_validation": {
+        "passed": true,
+        "issues": [],
+        "rows": 3,
+        "phase_rows": {
+          "warmup": 0,
+          "measure": 3
+        },
+        "backend_independently_verified": false
+      },
+      "independent_npu_operator_placement_verified": false,
+      "query_returncodes": {
+        "phases": 0,
+        "app_cpu": 0,
+        "loss_stats": 0,
+        "frequency": 0
+      }
+    },
+    {
+      "run": "u16-profile-natural-fastvlm-sm8750",
+      "starting_state": {
+        "skin": 28.606,
+        "battery_hal": 30.0,
+        "nsp0": 30.8,
+        "channels": {
+          "battery": 30.0,
+          "nsp6": 30.8,
+          "nsp5": 30.8,
+          "nsp4": 31.2,
+          "nsp3": 31.2,
+          "nsp1": 31.2,
+          "GPU6": 30.8,
+          "GPU4": 30.8,
+          "GPU2": 30.5,
+          "CPU5": 31.6,
+          "CPU4": 31.2,
+          "nsp2": 31.6,
+          "CPU7": 31.2,
+          "GPU7": 30.5,
+          "CPU3": 31.2,
+          "nsp0": 30.8,
+          "CPU6": 30.8,
+          "GPU5": 30.8,
+          "CPU2": 30.8,
+          "GPU0": 30.5,
+          "GPU1": 30.8,
+          "CPU0": 31.6,
+          "GPU3": 30.8,
+          "CPU1": 31.6,
+          "skin": 28.606
+        },
+        "severity": 0,
+        "override": false,
+        "battery_level": 100,
+        "externally_powered": true
+      },
+      "outcome": "captured",
+      "trace_sha256": "584b4aa2efed369662de67a480193b5df65b9a9450a52f4c7aed2d2187eb37c4",
+      "trace_bytes": 8207847,
+      "application_validation": {
+        "passed": true,
+        "issues": [],
+        "rows": 4,
+        "phase_rows": {
+          "warmup": 1,
+          "measure": 3
+        },
+        "backend_independently_verified": false
+      },
+      "independent_npu_operator_placement_verified": false,
+      "query_returncodes": {
+        "phases": 0,
+        "app_cpu": 0,
+        "loss_stats": 0,
+        "frequency": 0
+      }
+    },
+    {
+      "run": "u16-profile-natural-gemma4-sm8750",
+      "starting_state": {
+        "skin": 27.804,
+        "battery_hal": 30.0,
+        "nsp0": 30.5,
+        "channels": {
+          "battery": 30.0,
+          "nsp6": 30.8,
+          "nsp5": 30.8,
+          "nsp4": 30.5,
+          "nsp3": 30.5,
+          "nsp1": 30.8,
+          "GPU6": 30.5,
+          "GPU4": 30.5,
+          "GPU2": 30.5,
+          "CPU5": 31.2,
+          "CPU4": 30.5,
+          "nsp2": 30.8,
+          "CPU7": 30.8,
+          "GPU7": 30.1,
+          "CPU3": 30.5,
+          "nsp0": 30.5,
+          "CPU6": 30.1,
+          "GPU5": 30.5,
+          "CPU2": 30.5,
+          "GPU0": 30.5,
+          "GPU1": 30.5,
+          "CPU0": 30.8,
+          "GPU3": 30.1,
+          "CPU1": 31.6,
+          "skin": 27.804
+        },
+        "severity": 0,
+        "override": false,
+        "battery_level": 100,
+        "externally_powered": true
+      },
+      "outcome": "captured",
+      "trace_sha256": "4f29f052b596c5b6b656a284871118f6d6f543a7d06fe577c1258578cd3d2194",
+      "trace_bytes": 8719149,
+      "application_validation": {
+        "passed": true,
+        "issues": [],
+        "rows": 4,
+        "phase_rows": {
+          "warmup": 1,
+          "measure": 3
+        },
+        "backend_independently_verified": false
+      },
+      "independent_npu_operator_placement_verified": false,
+      "query_returncodes": {
+        "phases": 0,
+        "app_cpu": 0,
+        "loss_stats": 0,
+        "frequency": 0
+      }
+    }
+  ]
+}

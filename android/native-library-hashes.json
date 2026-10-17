@@ -1,0 +1,7 @@
+{
+  "libQnnSystem.so": "b30bd9880dc48f6c5349185a7d45b326f8a064b10072e60094354fa23d9a2027",
+  "libQnnHtpV79Skel.so": "238675526b2932efe83a66784937e310ce238e76577e16e9c4358e81711e5333",
+  "libQnnHtp.so": "09e930b6af975bae23bcf6965ac2ce60f6b999aff37cb7eabe9b4d7c1bc3f264",
+  "libLiteRtDispatch_Qualcomm.so": "35675fd1f0906453ff1a2351d530b5099e28a04e451dbe183073b9abfd505637",
+  "libQnnHtpV79Stub.so": "42c2e49965c66e4924fe509ba9547c4d04ad9e618c950dd8b1eaa84fab0d0ca9"
+}

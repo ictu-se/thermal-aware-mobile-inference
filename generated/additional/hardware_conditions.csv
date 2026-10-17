@@ -1,0 +1,3 @@
+model,outcome,accepted_requests,started_calls,unlaunched_calls,observed_application_vendor_events,vendor_event_evidence_available,vendor_event_coverage,complete_phase_slices,application_cpu_available,power_counter_rows,power_counter_tracks,observed_power_rail_series,energy_per_request_validated
+fastvlm-sm8750,captured,3,3,0,0,False,unverified_coverage_no_absence_claim,3,True,183,"['batt.capacity_pct', 'batt.charge_uah', 'batt.current_ua']",[],False
+gemma4-sm8750,captured,3,3,0,0,False,unverified_coverage_no_absence_claim,3,True,183,"['batt.capacity_pct', 'batt.charge_uah', 'batt.current_ua']",[],False

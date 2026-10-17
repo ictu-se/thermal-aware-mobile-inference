@@ -1,0 +1,124 @@
+{
+  "utc": "2026-10-17T12:54:14.268900+00:00",
+  "status": "complete",
+  "results": [
+    {
+      "run": "c17e-profile-fixed-fastvlm-sm8750",
+      "starting_state": {
+        "skin": 29.247,
+        "battery_hal": 30.0,
+        "nsp0": 31.6,
+        "channels": {
+          "battery": 30.0,
+          "nsp6": 32.0,
+          "nsp5": 32.0,
+          "nsp4": 32.0,
+          "nsp3": 32.0,
+          "nsp1": 32.0,
+          "GPU6": 30.8,
+          "GPU4": 31.6,
+          "GPU2": 31.6,
+          "CPU5": 32.0,
+          "CPU4": 32.4,
+          "nsp2": 32.0,
+          "CPU7": 31.6,
+          "GPU7": 31.2,
+          "CPU3": 31.6,
+          "nsp0": 31.6,
+          "CPU6": 31.2,
+          "GPU5": 31.2,
+          "CPU2": 31.6,
+          "GPU0": 31.2,
+          "GPU1": 31.2,
+          "CPU0": 32.8,
+          "GPU3": 31.2,
+          "CPU1": 32.0,
+          "skin": 29.247
+        },
+        "severity": 0,
+        "override": false,
+        "battery_level": 100,
+        "externally_powered": true
+      },
+      "outcome": "captured",
+      "trace_sha256": "7e527344556f709338d4f051fc69b236e676666d1aa282aee8dc06a2004789d0",
+      "trace_bytes": 12261565,
+      "application_validation": {
+        "passed": true,
+        "issues": [],
+        "rows": 3,
+        "phase_rows": {
+          "warmup": 0,
+          "measure": 3
+        },
+        "backend_independently_verified": false
+      },
+      "independent_npu_operator_placement_verified": false,
+      "query_returncodes": {
+        "phases": 0,
+        "app_cpu": 0,
+        "loss_stats": 0,
+        "frequency": 0
+      }
+    },
+    {
+      "run": "c17e-profile-fixed-gemma4-sm8750",
+      "starting_state": {
+        "skin": 28.945,
+        "battery_hal": 30.0,
+        "nsp0": 31.2,
+        "channels": {
+          "battery": 30.0,
+          "nsp6": 31.6,
+          "nsp5": 31.6,
+          "nsp4": 32.0,
+          "nsp3": 32.0,
+          "nsp1": 32.0,
+          "GPU6": 31.2,
+          "GPU4": 31.2,
+          "GPU2": 31.2,
+          "CPU5": 32.0,
+          "CPU4": 31.2,
+          "nsp2": 32.0,
+          "CPU7": 31.6,
+          "GPU7": 31.2,
+          "CPU3": 32.0,
+          "nsp0": 31.2,
+          "CPU6": 31.2,
+          "GPU5": 31.2,
+          "CPU2": 31.2,
+          "GPU0": 31.2,
+          "GPU1": 31.2,
+          "CPU0": 31.6,
+          "GPU3": 31.2,
+          "CPU1": 32.4,
+          "skin": 28.945
+        },
+        "severity": 0,
+        "override": false,
+        "battery_level": 100,
+        "externally_powered": true
+      },
+      "outcome": "captured",
+      "trace_sha256": "530b1cd0a3525d5c2b501367b9c46e467d2da324c26ad1123ac5b0ce08201573",
+      "trace_bytes": 12154688,
+      "application_validation": {
+        "passed": true,
+        "issues": [],
+        "rows": 3,
+        "phase_rows": {
+          "warmup": 0,
+          "measure": 3
+        },
+        "backend_independently_verified": false
+      },
+      "independent_npu_operator_placement_verified": false,
+      "query_returncodes": {
+        "phases": 0,
+        "app_cpu": 0,
+        "loss_stats": 0,
+        "frequency": 0
+      }
+    }
+  ]
+}

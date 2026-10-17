@@ -1,0 +1,9 @@
+{
+  "complete": true,
+  "outcome": "completed",
+  "measured_requests": 1,
+  "first_request_ns": 288057633618078,
+  "last_request_end_ns": 288061584767139,
+  "device_monotonic_ns": 288061627795837,
+  "device_wall_ms": 1792154891241
+}

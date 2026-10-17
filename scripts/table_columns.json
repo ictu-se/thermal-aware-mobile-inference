@@ -1,0 +1,66 @@
+{
+  "performance": [
+    "model",
+    "prefill_decode_budget",
+    "requests",
+    "mean_call_s",
+    "median_call_s",
+    "sd_call_s",
+    "mean_decode_tokens_per_s"
+  ],
+  "thermal_memory": [
+    "model",
+    "workload",
+    "mean_start_skin_hal",
+    "mean_final_skin_hal",
+    "mean_peak_skin_rise_hal",
+    "mean_positive_rise_auc_hal_s",
+    "mean_sampled_peak_pss_mib"
+  ],
+  "paired": [
+    "workload",
+    "pairs",
+    "mean_fastvlm_minus_gemma_s",
+    "descriptive_95_interval_s",
+    "exclude_first_mean_s",
+    "adjusted_mean_s"
+  ],
+  "monitoring": [
+    "model",
+    "workload",
+    "pairs",
+    "mean_full_minus_minimal_ms",
+    "descriptive_95_interval_ms",
+    "mean_paired_percent"
+  ],
+  "repeated": [
+    "scheduled_block",
+    "model",
+    "requests",
+    "first_severe_s",
+    "matched_recovery_s",
+    "finite_headroom_samples",
+    "maximum_headroom"
+  ],
+  "severity": [
+    "model",
+    "none_s",
+    "light_s",
+    "moderate_s",
+    "severe_s"
+  ],
+  "profiles": [
+    "capture_cohort",
+    "model",
+    "mode",
+    "phase_slices",
+    "app_cpu_attribution"
+  ],
+  "supplement": [
+    "condition",
+    "package_or_models",
+    "full_or_fastvlm_s",
+    "minimal_or_gemma_s",
+    "difference_s"
+  ]
+}

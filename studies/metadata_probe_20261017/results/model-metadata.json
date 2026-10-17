@@ -1,0 +1,55 @@
+{
+  "observations": [
+    {
+      "model": "fastvlm-sm8750",
+      "max_context_tokens": 1280,
+      "dynamic_context": false,
+      "minimum_runtime_version": null,
+      "model_type": "LLM",
+      "supportedBackends": [
+        "CPU",
+        "GPU",
+        "NPU"
+      ],
+      "npuBrand": "UNKNOWN",
+      "socName": null,
+      "model_default_sampler_metadata": {
+        "model_default_TopK": 0,
+        "model_default_TopP": 0,
+        "model_default_Temperature": 0
+      },
+      "status": "read_with_unavailable_fields",
+      "field_errors": {
+        "model_default_Seed": "java.lang.NoSuchMethodException: com.google.ai.edge.litertlm.SamplerParameters.getSeed []"
+      }
+    },
+    {
+      "model": "gemma4-sm8750",
+      "max_context_tokens": 4224,
+      "dynamic_context": false,
+      "minimum_runtime_version": null,
+      "model_type": "LLM",
+      "supportedBackends": [
+        "CPU",
+        "GPU",
+        "NPU"
+      ],
+      "npuBrand": "QUALCOMM",
+      "socName": "SM8750",
+      "model_default_sampler_metadata": {
+        "model_default_TopK": 0,
+        "model_default_TopP": 0,
+        "model_default_Temperature": 0
+      },
+      "status": "read_with_unavailable_fields",
+      "field_errors": {
+        "model_default_Seed": "java.lang.NoSuchMethodException: com.google.ai.edge.litertlm.SamplerParameters.getSeed []"
+      }
+    }
+  ],
+  "inference_executed": false,
+  "scope": "Metadata declarations, not independent backend execution or realized sampling verification",
+  "target_apk_unchanged": true,
+  "target_apk_sha256": "26869ff911f44e198df7f80fdfc45ffd753a5ac6c2ba9b2fb22ef13429c85aba",
+  "runtime": "LiteRT-LM 0.18.0"
+}

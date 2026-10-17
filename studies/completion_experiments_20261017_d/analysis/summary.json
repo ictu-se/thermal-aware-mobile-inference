@@ -1,0 +1,121 @@
+{
+  "acquisition_status": "complete",
+  "fixed_work_individual": {},
+  "long_sessions": [],
+  "overhead_pairs": [],
+  "excluded": [
+    {
+      "run": "c17d-p0-overhead-1-fastvlm-sm8750-full",
+      "reason": "recovery_timeout",
+      "design": {
+        "run_id": "c17d-p0-overhead-1-fastvlm-sm8750-full",
+        "model": "fastvlm-sm8750",
+        "kind": "overhead",
+        "block": 0,
+        "workload": "short",
+        "pair": 0,
+        "prefill_tokens": 128,
+        "decode_tokens": 64,
+        "iterations": 1,
+        "monitoring": "full"
+      }
+    },
+    {
+      "run": "c17d-p1-overhead-0-gemma4-sm8750-full",
+      "reason": "recovery_timeout",
+      "design": {
+        "run_id": "c17d-p1-overhead-0-gemma4-sm8750-full",
+        "model": "gemma4-sm8750",
+        "kind": "overhead",
+        "block": 0,
+        "workload": "long",
+        "pair": 1,
+        "prefill_tokens": 512,
+        "decode_tokens": 256,
+        "iterations": 1,
+        "monitoring": "full"
+      }
+    },
+    {
+      "run": "c17d-p1-overhead-1-gemma4-sm8750-minimal",
+      "reason": "unlaunched_pair_partner",
+      "design": {
+        "run_id": "c17d-p1-overhead-1-gemma4-sm8750-minimal",
+        "model": "gemma4-sm8750",
+        "kind": "overhead",
+        "block": 0,
+        "workload": "long",
+        "pair": 1,
+        "prefill_tokens": 512,
+        "decode_tokens": 256,
+        "iterations": 1,
+        "monitoring": "minimal"
+      }
+    },
+    {
+      "run": "c17d-p2-main-0-gemma4-sm8750-full",
+      "reason": "recovery_timeout",
+      "design": {
+        "run_id": "c17d-p2-main-0-gemma4-sm8750-full",
+        "model": "gemma4-sm8750",
+        "kind": "main",
+        "block": 0,
+        "workload": "short",
+        "pair": 2,
+        "prefill_tokens": 128,
+        "decode_tokens": 64,
+        "iterations": 1,
+        "monitoring": "full"
+      }
+    },
+    {
+      "run": "c17d-p2-main-1-fastvlm-sm8750-full",
+      "reason": "unlaunched_pair_partner",
+      "design": {
+        "run_id": "c17d-p2-main-1-fastvlm-sm8750-full",
+        "model": "fastvlm-sm8750",
+        "kind": "main",
+        "block": 0,
+        "workload": "short",
+        "pair": 2,
+        "prefill_tokens": 128,
+        "decode_tokens": 64,
+        "iterations": 1,
+        "monitoring": "full"
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "c17d-p0-overhead",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "c17d-p0-overhead-0-fastvlm-sm8750-minimal",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": false,
+      "segment": "initial",
+      "starting_skin_difference": null
+    },
+    {
+      "id": "c17d-p1-overhead",
+      "kind": "overhead",
+      "members": [],
+      "paired_complete": false,
+      "segment": "initial",
+      "starting_skin_difference": null
+    },
+    {
+      "id": "c17d-p2-main",
+      "kind": "main",
+      "members": [],
+      "paired_complete": false,
+      "segment": "initial",
+      "starting_skin_difference": null
+    }
+  ],
+  "note": "Descriptive live summary; unmatched main points are individual-only. Paired/block analysis and figure regeneration required after acquisition."
+}

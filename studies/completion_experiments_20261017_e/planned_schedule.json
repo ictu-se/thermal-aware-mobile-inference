@@ -1,0 +1,74 @@
+[
+  {
+    "run_id": "c17e-p0-overhead-0-fastvlm-sm8750-minimal",
+    "model": "fastvlm-sm8750",
+    "kind": "overhead",
+    "block": 0,
+    "workload": "short",
+    "pair": 0,
+    "prefill_tokens": 128,
+    "decode_tokens": 64,
+    "iterations": 1,
+    "monitoring": "minimal"
+  },
+  {
+    "run_id": "c17e-p0-overhead-1-fastvlm-sm8750-full",
+    "model": "fastvlm-sm8750",
+    "kind": "overhead",
+    "block": 0,
+    "workload": "short",
+    "pair": 0,
+    "prefill_tokens": 128,
+    "decode_tokens": 64,
+    "iterations": 1,
+    "monitoring": "full"
+  },
+  {
+    "run_id": "c17e-p1-overhead-0-gemma4-sm8750-full",
+    "model": "gemma4-sm8750",
+    "kind": "overhead",
+    "block": 0,
+    "workload": "long",
+    "pair": 1,
+    "prefill_tokens": 512,
+    "decode_tokens": 256,
+    "iterations": 1,
+    "monitoring": "full"
+  },
+  {
+    "run_id": "c17e-p1-overhead-1-gemma4-sm8750-minimal",
+    "model": "gemma4-sm8750",
+    "kind": "overhead",
+    "block": 0,
+    "workload": "long",
+    "pair": 1,
+    "prefill_tokens": 512,
+    "decode_tokens": 256,
+    "iterations": 1,
+    "monitoring": "minimal"
+  },
+  {
+    "run_id": "c17e-p2-main-0-gemma4-sm8750-full",
+    "model": "gemma4-sm8750",
+    "kind": "main",
+    "block": 0,
+    "workload": "short",
+    "pair": 2,
+    "prefill_tokens": 128,
+    "decode_tokens": 64,
+    "iterations": 1,
+    "monitoring": "full"
+  },
+  {
+    "run_id": "c17e-p2-main-1-fastvlm-sm8750-full",
+    "model": "fastvlm-sm8750",
+    "kind": "main",
+    "block": 0,
+    "workload": "short",
+    "pair": 2,
+    "prefill_tokens": 128,
+    "decode_tokens": 64,
+    "iterations": 1,
+    "monitoring": "full"
+  }
+]

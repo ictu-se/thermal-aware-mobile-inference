@@ -1,0 +1,10 @@
+{
+  "recorded_utc": "2026-10-17T11:04:50.062910+00:00",
+  "source": "User explicitly reconfirmed current supplementary acquisition conditions",
+  "case": "removed",
+  "fold": "unfolded flat",
+  "support": "table",
+  "air_conditioning_setpoint_c": 26,
+  "ambient_temperature_measured": false,
+  "airflow_measured": false
+}

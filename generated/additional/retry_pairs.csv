@@ -1,0 +1,4 @@
+unit,condition,packages,first_quantity_s,second_quantity_s,difference_s,complete_pair
+c17e-p0-overhead,Monitoring,FastVLM,1.472714687,1.700159426,-0.22744473899999984,True
+c17e-p1-overhead,Monitoring,Gemma,8.66612333,7.597958486,1.068164844,True
+c17e-p2-main,Main short,FastVLM/Gemma,1.426235885,2.362463593,-0.9362277080000001,True

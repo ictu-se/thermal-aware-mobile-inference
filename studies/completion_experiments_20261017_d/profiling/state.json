@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-17T11:51:10.881048+00:00",
+  "status": "complete",
+  "results": [
+    {
+      "mode": "fixed",
+      "model": "fastvlm-sm8750",
+      "outcome": "capture_error",
+      "error": "adb: device 'handset-01' not found"
+    },
+    {
+      "mode": "fixed",
+      "model": "gemma4-sm8750",
+      "outcome": "capture_error",
+      "error": "adb: device 'handset-01' not found"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "shared_acquisition": "Original primary source, reused for fresh primary-protocol acquisitions; supplementary initial recovery uses the separately recorded stricter 1800-second bound.",
+  "public_analysis": "Accepts explicit study root, derives campaign identity from protocol, writes empirical PNG figures; numerical estimator unchanged.",
+  "data": "JSON formatting and private-identifier redaction change byte digests; exported numerical result hashes are recomputed.",
+  "requested_backend_driver": "Uses an explicit baseline-source configuration in fresh workspaces; capture and validation logic unchanged.",
+  "profile_modes": "Optional fixed/natural mode selection for fresh trace acquisition; default fixed capture and all within-mode measurement code unchanged.",
+  "library_records": "Mapped library paths are reduced to basenames; recorded presence and numerical analysis are unchanged."
+}

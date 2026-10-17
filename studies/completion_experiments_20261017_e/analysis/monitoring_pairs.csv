@@ -1,0 +1,3 @@
+unit,block,model,workload,full_s,minimal_s,difference_s,difference_percent,full_first,skin_difference_signed,segment,resampling_block
+c17e-p0-overhead,0,fastvlm-sm8750,short,1.472714687,1.700159426,-0.22744473899999984,-13.377847719558499,False,-0.0030000000000001137,initial,initial/0
+c17e-p1-overhead,0,gemma4-sm8750,long,8.66612333,7.597958486,1.068164844,14.058576997600092,True,-0.26899999999999835,initial,initial/0

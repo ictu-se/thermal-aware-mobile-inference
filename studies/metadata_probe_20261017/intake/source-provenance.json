@@ -1,0 +1,11 @@
+{
+  "runtime_source_tag": "v0.18.0",
+  "runtime_source_commit": "b2f686e2ed4718fb84ec398a61dd59ca0f0aff27",
+  "probe_apk_sha256": "b39eef14d89025c88d47bd6b6deab9cef75e37483b31e4594f0240588a5285cf",
+  "source_files": {
+    "revision_analysis_20261017/metadata_probe_runner.py": "ba6143f3d1c7433dff212f20bd975ef309464ba65ae109942c1d5d73160e1fc0",
+    "metadata_probe_20261017/android/metadata-probe/build.gradle": "68186c17991a7b3d27decc8900feafcea0b5136f41a42df5774e0d24d0a3253b",
+    "metadata_probe_20261017/android/metadata-probe/src/main/AndroidManifest.xml": "343d5be1ac17cdd45d1a2f2ddc616c509290e655869125a9422a96d88aa66066",
+    "metadata_probe_20261017/android/metadata-probe/src/main/java/vn/ictu/thermalbenchprobe/MetadataProbe.java": "6850d4394b751da0577da75c374474f0c3cb4a675cbd2d1465f04e596a52d717"
+  }
+}

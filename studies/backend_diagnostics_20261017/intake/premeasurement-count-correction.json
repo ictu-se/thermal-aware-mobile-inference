@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-17T12:29:40.813181+00:00",
+  "reason": "Correct inherited aggregate request target from six to eighteen before any diagnostic observation; six conditions with three planned calls each. No measurement or eligibility changes.",
+  "previous_protocol_sha256": "4d1dd633be10ad82ba2fe11c867f5f893369c7721466152ac4b487925a27ba7f",
+  "previous_frozen_hashes": {
+    "protocol.json": "4d1dd633be10ad82ba2fe11c867f5f893369c7721466152ac4b487925a27ba7f",
+    "models/manifest.json": "429ee48b09e125920e391332a3011079c37f418f3296d0314ea1c9e5d4af54f5",
+    "profiling/config.txt": "72c5b4f5a70fcb45192c9fc23d2e9e5824dddfe7dd9c55bb92725a526ede5bcc",
+    "profiling/capture_backend.py": "708e90440c007e0ebda6004aa79d8cf735d78d5bea2ab4fc20586ab54bf211cf",
+    "scripts/acquire.py": "d2df6e0a32c495c6e671e1c93a5127a42ee9fbb72c378f6d1f10cc4f31b5cad3",
+    "scripts/analyze.py": "61b46d822d80c35d6428e4bd3b467ef83c5e4e9cf55fcd6578f36f84045965ba",
+    "scripts/campaign.py": "5e11a196217a1f10a7f1142fbee3e50008f3095f42e7aedcac811010aa4152b7",
+    "scripts/run_backend_diagnostics.py": "1add2b29e4a1582a1457b7cafbb26cae5ff7abfedbb9a4f6718689ad6fdb03b7",
+    "scripts/run_device.py": "99dabdfe2bb9a5b900510457cafed44f18f14bfcb0f804ea9c1094a1834d9e54",
+    "scripts/summarize.py": "65bb5471ad980f8c54ae3fd2269c31477f9fd9906dc0d70c336ad8d262621a66",
+    "scripts/test_acquisition.py": "bc6a188390ae28d0121d3e5cb198b931a50887730fc3d72cb28406355524bde4",
+    "scripts/test_validation.py": "cb63dc41d000a4209ff72cfe1d1f4d9daeccb6ecadf517bd57c7065e981654c3"
+  }
+}

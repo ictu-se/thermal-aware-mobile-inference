@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite the archived release when using this code or data."
+title: "Thermal-aware measurement and reproducibility of on-device generative AI: Code and experimental data"
+type: dataset
+version: "1.1.0"
+date-released: "2026-10-17"
+doi: "10.5281/zenodo.23437172"
+url: "https://github.com/ictu-se/thermal-aware-mobile-inference"
+authors:
+  - family-names: Nguyen
+    given-names: The-Vinh
+    affiliation: Thai Nguyen University of Information and Communication Technology
+license: Apache-2.0

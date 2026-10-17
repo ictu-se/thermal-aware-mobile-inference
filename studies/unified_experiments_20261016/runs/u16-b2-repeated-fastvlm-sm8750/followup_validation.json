@@ -1,0 +1,16 @@
+{
+  "accepted_observations": true,
+  "outcome": "thermal_stop",
+  "valid_request_count": 111,
+  "validation": {
+    "passed": true,
+    "issues": [],
+    "rows": 111,
+    "phase_rows": {
+      "warmup": 0,
+      "measure": 111
+    },
+    "backend_independently_verified": false
+  },
+  "app_outcome": "thermal_stop"
+}

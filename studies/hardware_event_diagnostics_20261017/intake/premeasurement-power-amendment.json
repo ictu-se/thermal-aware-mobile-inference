@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-17T13:06:13.908156+00:00",
+  "reason": "android.power is registered on this device; add battery/power-rail availability observation before either kernel-event capture. No changes to inference budgets, eligibility, or target APK. Net battery flow under USB is not device energy; no calibrated energy claim.",
+  "previous_frozen_hashes": {
+    "protocol.json": "ad1a165af185e211bcc4aaed60860a2f0d6821ce592e1a533d91f7d314c99e07",
+    "models/manifest.json": "429ee48b09e125920e391332a3011079c37f418f3296d0314ea1c9e5d4af54f5",
+    "profiling/config.txt": "18942616f2c08d857a4b38412a519c5250740e2fb7dd33d9add55f31a1d54d32",
+    "profiling/capture_backend.py": "4da165779ca8b98f0fa45fc9cb76c3d51b2403f214fba1f6062e404a07dde3ab",
+    "scripts/acquire.py": "d2df6e0a32c495c6e671e1c93a5127a42ee9fbb72c378f6d1f10cc4f31b5cad3",
+    "scripts/analyze.py": "61b46d822d80c35d6428e4bd3b467ef83c5e4e9cf55fcd6578f36f84045965ba",
+    "scripts/campaign.py": "5e11a196217a1f10a7f1142fbee3e50008f3095f42e7aedcac811010aa4152b7",
+    "scripts/run_backend_diagnostics.py": "1add2b29e4a1582a1457b7cafbb26cae5ff7abfedbb9a4f6718689ad6fdb03b7",
+    "scripts/run_device.py": "99dabdfe2bb9a5b900510457cafed44f18f14bfcb0f804ea9c1094a1834d9e54",
+    "scripts/summarize.py": "65bb5471ad980f8c54ae3fd2269c31477f9fd9906dc0d70c336ad8d262621a66",
+    "scripts/test_acquisition.py": "bc6a188390ae28d0121d3e5cb198b931a50887730fc3d72cb28406355524bde4",
+    "scripts/test_validation.py": "cb63dc41d000a4209ff72cfe1d1f4d9daeccb6ecadf517bd57c7065e981654c3"
+  },
+  "configuration_reference": "https://perfetto.dev/docs/data-sources/battery-counters"
+}

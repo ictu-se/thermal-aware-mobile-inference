@@ -1,0 +1,5 @@
+model,workload,pairs,mean_full_minus_minimal_ms,descriptive_95_interval_ms,mean_paired_percent
+FastVLM,short,9,19.7,"[-49.6, 92.1]",1.44
+FastVLM,long,10,45.4,"[-32.3, 122.6]",1.17
+Gemma,short,10,56.4,"[-195.0, 239.5]",3.18
+Gemma,long,9,115.7,"[-56.0, 271.5]",1.68

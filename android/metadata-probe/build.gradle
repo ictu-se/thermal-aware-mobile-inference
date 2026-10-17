@@ -1,0 +1,15 @@
+plugins { id 'com.android.test' }
+android {
+    namespace 'vn.ictu.thermalbenchprobe'
+    compileSdk 36
+    targetProjectPath = ':app'
+    defaultConfig {
+        minSdk 31
+        targetSdk 36
+        testInstrumentationRunner 'vn.ictu.thermalbenchprobe.MetadataProbe'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}

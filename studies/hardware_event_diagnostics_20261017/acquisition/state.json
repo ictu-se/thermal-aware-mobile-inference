@@ -1,0 +1,13 @@
+{
+  "started_utc": "2026-10-17T13:07:18.756322+00:00",
+  "status": "complete",
+  "phase": "complete",
+  "completed": [],
+  "thermal_stops": [],
+  "excluded": [],
+  "attempted": [],
+  "units": [],
+  "current_run": null,
+  "reference_skin": null,
+  "scope": "Diagnostic conditions are recorded in profiling state, outside all timing cohorts"
+}

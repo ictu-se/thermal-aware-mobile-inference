@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-17T09:58:30.150500+00:00",
+  "user_report": "Mac lid open, Mac on AC power, phone reconnected, 17 October 2026",
+  "previous_studies": [
+    "completion_experiments_20261017",
+    "completion_experiments_20261017_b",
+    "completion_experiments_20261017_c"
+  ],
+  "prior_inference_attempts": 0,
+  "one_new_bounded_campaign": true
+}

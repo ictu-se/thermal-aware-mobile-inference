@@ -1,0 +1,393 @@
+{
+  "utc": "2026-10-17T13:07:00.485050+00:00",
+  "status": "complete",
+  "results": [
+    {
+      "model": "fastvlm-sm8750",
+      "backend": "NPU",
+      "run": "backend17-npu-fastvlm-sm8750",
+      "starting_state": {
+        "skin": 28.909,
+        "battery_hal": 30.0,
+        "nsp0": 31.6,
+        "channels": {
+          "battery": 30.0,
+          "nsp6": 31.6,
+          "nsp5": 31.6,
+          "nsp4": 32.4,
+          "nsp3": 32.0,
+          "nsp1": 32.0,
+          "GPU6": 31.2,
+          "GPU4": 31.6,
+          "GPU2": 31.6,
+          "CPU5": 33.2,
+          "CPU4": 32.0,
+          "nsp2": 32.0,
+          "CPU7": 32.0,
+          "GPU7": 31.2,
+          "CPU3": 32.8,
+          "nsp0": 31.6,
+          "CPU6": 31.6,
+          "GPU5": 31.6,
+          "CPU2": 32.0,
+          "GPU0": 31.6,
+          "GPU1": 31.6,
+          "CPU0": 32.4,
+          "GPU3": 31.6,
+          "CPU1": 33.2,
+          "skin": 28.909
+        },
+        "severity": 0,
+        "override": false,
+        "battery_level": 100,
+        "externally_powered": true
+      },
+      "outcome": "captured",
+      "trace_sha256": "fa201df1914c52e905f6f5731f1436fad89c7671b4abf8ee2f8ba10b8271fb2e",
+      "trace_bytes": 19897352,
+      "application_validation": {
+        "passed": true,
+        "issues": [],
+        "rows": 3,
+        "phase_rows": {
+          "warmup": 0,
+          "measure": 3
+        },
+        "backend_independently_verified": false
+      },
+      "independent_npu_operator_placement_verified": false,
+      "query_returncodes": {
+        "phases": 0,
+        "app_cpu": 0,
+        "loss_stats": 0,
+        "frequency": 0
+      }
+    },
+    {
+      "model": "fastvlm-sm8750",
+      "backend": "CPU",
+      "run": "backend17-cpu-fastvlm-sm8750",
+      "starting_state": {
+        "skin": 28.64,
+        "battery_hal": 30.0,
+        "nsp0": 31.2,
+        "channels": {
+          "battery": 30.0,
+          "nsp6": 31.6,
+          "nsp5": 31.6,
+          "nsp4": 32.0,
+          "nsp3": 31.6,
+          "nsp1": 32.0,
+          "GPU6": 30.8,
+          "GPU4": 30.8,
+          "GPU2": 31.2,
+          "CPU5": 32.0,
+          "CPU4": 32.4,
+          "nsp2": 31.6,
+          "CPU7": 31.6,
+          "GPU7": 31.2,
+          "CPU3": 31.6,
+          "nsp0": 31.2,
+          "CPU6": 30.8,
+          "GPU5": 31.2,
+          "CPU2": 31.6,
+          "GPU0": 31.2,
+          "GPU1": 31.2,
+          "CPU0": 32.8,
+          "GPU3": 31.2,
+          "CPU1": 32.0,
+          "skin": 28.64
+        },
+        "severity": 0,
+        "override": false,
+        "battery_level": 100,
+        "externally_powered": true
+      },
+      "outcome": "application_or_validation_failure",
+      "trace_sha256": "5601b930eedf2dbbe33cd5eedcb3fe9fe1826e55f9ba488586b58709df019166",
+      "trace_bytes": 19030028,
+      "application_validation": {
+        "passed": false,
+        "issues": [
+          "fixed_work_mismatch",
+          "invalid_actual_token_counts",
+          "missing_nonfinite_or_nonpositive_metric",
+          "non_ok_rows"
+        ],
+        "rows": 1,
+        "phase_rows": {
+          "warmup": 0,
+          "measure": 0
+        },
+        "backend_independently_verified": false
+      },
+      "independent_npu_operator_placement_verified": false,
+      "query_returncodes": {
+        "phases": 0,
+        "app_cpu": 0,
+        "loss_stats": 0,
+        "frequency": 0
+      }
+    },
+    {
+      "model": "fastvlm-sm8750",
+      "backend": "GPU",
+      "run": "backend17-gpu-fastvlm-sm8750",
+      "starting_state": {
+        "skin": 28.548,
+        "battery_hal": 29.0,
+        "nsp0": 31.2,
+        "channels": {
+          "battery": 29.0,
+          "nsp6": 31.6,
+          "nsp5": 31.6,
+          "nsp4": 32.0,
+          "nsp3": 32.0,
+          "nsp1": 32.0,
+          "GPU6": 31.2,
+          "GPU4": 31.6,
+          "GPU2": 31.2,
+          "CPU5": 32.0,
+          "CPU4": 33.2,
+          "nsp2": 31.6,
+          "CPU7": 31.6,
+          "GPU7": 31.2,
+          "CPU3": 31.6,
+          "nsp0": 31.2,
+          "CPU6": 31.6,
+          "GPU5": 31.6,
+          "CPU2": 32.8,
+          "GPU0": 31.2,
+          "GPU1": 31.6,
+          "CPU0": 32.8,
+          "GPU3": 31.2,
+          "CPU1": 32.0,
+          "skin": 28.548
+        },
+        "severity": 0,
+        "override": false,
+        "battery_level": 100,
+        "externally_powered": true
+      },
+      "outcome": "application_or_validation_failure",
+      "trace_sha256": "d9601e650b12228e650519bcfc7b12ecd16542e7a86a0e6370d20b1dca71e776",
+      "trace_bytes": 20620037,
+      "application_validation": {
+        "passed": false,
+        "issues": [
+          "fixed_work_mismatch",
+          "invalid_actual_token_counts",
+          "missing_nonfinite_or_nonpositive_metric",
+          "non_ok_rows"
+        ],
+        "rows": 1,
+        "phase_rows": {
+          "warmup": 0,
+          "measure": 0
+        },
+        "backend_independently_verified": false
+      },
+      "independent_npu_operator_placement_verified": false,
+      "query_returncodes": {
+        "phases": 0,
+        "app_cpu": 0,
+        "loss_stats": 0,
+        "frequency": 0
+      }
+    },
+    {
+      "model": "gemma4-sm8750",
+      "backend": "NPU",
+      "run": "backend17-npu-gemma4-sm8750",
+      "starting_state": {
+        "skin": 28.945,
+        "battery_hal": 29.0,
+        "nsp0": 30.8,
+        "channels": {
+          "battery": 29.0,
+          "nsp6": 31.6,
+          "nsp5": 31.2,
+          "nsp4": 31.6,
+          "nsp3": 31.6,
+          "nsp1": 31.6,
+          "GPU6": 30.8,
+          "GPU4": 30.8,
+          "GPU2": 30.8,
+          "CPU5": 32.0,
+          "CPU4": 32.4,
+          "nsp2": 31.6,
+          "CPU7": 31.6,
+          "GPU7": 30.8,
+          "CPU3": 31.6,
+          "nsp0": 30.8,
+          "CPU6": 31.2,
+          "GPU5": 31.2,
+          "CPU2": 31.6,
+          "GPU0": 30.8,
+          "GPU1": 31.2,
+          "CPU0": 32.8,
+          "GPU3": 30.5,
+          "CPU1": 32.0,
+          "skin": 28.945
+        },
+        "severity": 0,
+        "override": false,
+        "battery_level": 100,
+        "externally_powered": true
+      },
+      "outcome": "captured",
+      "trace_sha256": "ddb30fc5a6d07f4076ee01ba40e1b363396ddb345bdb6f081ea078ba631af18f",
+      "trace_bytes": 19634332,
+      "application_validation": {
+        "passed": true,
+        "issues": [],
+        "rows": 3,
+        "phase_rows": {
+          "warmup": 0,
+          "measure": 3
+        },
+        "backend_independently_verified": false
+      },
+      "independent_npu_operator_placement_verified": false,
+      "query_returncodes": {
+        "phases": 0,
+        "app_cpu": 0,
+        "loss_stats": 0,
+        "frequency": 0
+      }
+    },
+    {
+      "model": "gemma4-sm8750",
+      "backend": "GPU",
+      "run": "backend17-gpu-gemma4-sm8750",
+      "starting_state": {
+        "skin": 29.169,
+        "battery_hal": 30.0,
+        "nsp0": 31.6,
+        "channels": {
+          "battery": 30.0,
+          "nsp6": 32.4,
+          "nsp5": 31.6,
+          "nsp4": 32.0,
+          "nsp3": 32.0,
+          "nsp1": 32.0,
+          "GPU6": 31.2,
+          "GPU4": 32.0,
+          "GPU2": 31.6,
+          "CPU5": 33.2,
+          "CPU4": 32.0,
+          "nsp2": 32.4,
+          "CPU7": 32.0,
+          "GPU7": 31.2,
+          "CPU3": 32.8,
+          "nsp0": 31.6,
+          "CPU6": 31.6,
+          "GPU5": 31.6,
+          "CPU2": 32.0,
+          "GPU0": 31.6,
+          "GPU1": 31.6,
+          "CPU0": 32.4,
+          "GPU3": 31.6,
+          "CPU1": 32.8,
+          "skin": 29.169
+        },
+        "severity": 0,
+        "override": false,
+        "battery_level": 100,
+        "externally_powered": true
+      },
+      "outcome": "application_or_validation_failure",
+      "trace_sha256": "adb0c0b895acd7e8fba117c5159c4d9d2b84de359d2c8f067e7561d95f729d77",
+      "trace_bytes": 20610865,
+      "application_validation": {
+        "passed": false,
+        "issues": [
+          "fixed_work_mismatch",
+          "invalid_actual_token_counts",
+          "missing_nonfinite_or_nonpositive_metric",
+          "non_ok_rows"
+        ],
+        "rows": 1,
+        "phase_rows": {
+          "warmup": 0,
+          "measure": 0
+        },
+        "backend_independently_verified": false
+      },
+      "independent_npu_operator_placement_verified": false,
+      "query_returncodes": {
+        "phases": 0,
+        "app_cpu": 0,
+        "loss_stats": 0,
+        "frequency": 0
+      }
+    },
+    {
+      "model": "gemma4-sm8750",
+      "backend": "CPU",
+      "run": "backend17-cpu-gemma4-sm8750",
+      "starting_state": {
+        "skin": 28.826,
+        "battery_hal": 30.0,
+        "nsp0": 31.2,
+        "channels": {
+          "battery": 30.0,
+          "nsp6": 32.0,
+          "nsp5": 32.0,
+          "nsp4": 32.0,
+          "nsp3": 32.0,
+          "nsp1": 32.0,
+          "GPU6": 31.2,
+          "GPU4": 31.2,
+          "GPU2": 31.2,
+          "CPU5": 32.8,
+          "CPU4": 32.4,
+          "nsp2": 32.0,
+          "CPU7": 31.6,
+          "GPU7": 31.2,
+          "CPU3": 32.4,
+          "nsp0": 31.2,
+          "CPU6": 31.2,
+          "GPU5": 31.6,
+          "CPU2": 32.4,
+          "GPU0": 31.2,
+          "GPU1": 31.6,
+          "CPU0": 32.4,
+          "GPU3": 31.2,
+          "CPU1": 32.4,
+          "skin": 28.826
+        },
+        "severity": 0,
+        "override": false,
+        "battery_level": 100,
+        "externally_powered": true
+      },
+      "outcome": "application_or_validation_failure",
+      "trace_sha256": "6968b94916b7d5bbce0a59418525acc9b3c7994f6db5ba1e3f029e890caa26d7",
+      "trace_bytes": 19507353,
+      "application_validation": {
+        "passed": false,
+        "issues": [
+          "fixed_work_mismatch",
+          "invalid_actual_token_counts",
+          "missing_nonfinite_or_nonpositive_metric",
+          "non_ok_rows"
+        ],
+        "rows": 1,
+        "phase_rows": {
+          "warmup": 0,
+          "measure": 0
+        },
+        "backend_independently_verified": false
+      },
+      "independent_npu_operator_placement_verified": false,
+      "query_returncodes": {
+        "phases": 0,
+        "app_cpu": 0,
+        "loss_stats": 0,
+        "frequency": 0
+      }
+    }
+  ],
+  "phase": "complete"
+}

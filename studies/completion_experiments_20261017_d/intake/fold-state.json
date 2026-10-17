@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-17T10:08:58.389726+00:00",
+  "source": "Android dumpsys device_state",
+  "committed_identifier": 1,
+  "committed_name": "STATE_FLAT",
+  "base_name": "STATE_FLAT",
+  "override_active": false,
+  "power_save_mode_reported": false,
+  "thermal_status_reported": 0,
+  "physical_calibration_of_hinge": false
+}

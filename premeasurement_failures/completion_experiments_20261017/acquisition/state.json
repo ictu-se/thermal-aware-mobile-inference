@@ -1,0 +1,14 @@
+{
+  "started_utc": "2026-10-17T04:10:42.873268+00:00",
+  "status": "stopped_with_error",
+  "phase": "calibration",
+  "completed": [],
+  "thermal_stops": [],
+  "excluded": [],
+  "attempted": [],
+  "units": [],
+  "reference_skin": null,
+  "current_run": "idle-calibration",
+  "error": "Idle calibration conditions changed",
+  "finished_utc": "2026-10-17T04:29:49.655108+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "issues": [],
+  "rows": 116,
+  "phase_rows": {
+    "warmup": 0,
+    "measure": 116
+  },
+  "backend_independently_verified": false
+}

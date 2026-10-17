@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-10-17T12:53:51.541605+00:00",
+  "purpose": "Read declared context/backend/sampler metadata through the pinned LiteRT-LM 0.18.0 ModelInfo API in the installed target application; no inference and no main APK replacement",
+  "target_package": "vn.ictu.thermalbench",
+  "after_device_arms": [
+    "completion_experiments_20261017_e",
+    "backend_diagnostics_20261017"
+  ],
+  "one_attempt_per_model": true,
+  "original_apk_must_remain_unchanged": true
+}

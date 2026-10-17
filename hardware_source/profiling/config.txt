@@ -1,0 +1,25 @@
+buffers { size_kb: 131072 fill_policy: DISCARD }
+duration_ms: 60000
+data_sources { config { name: "linux.ftrace" ftrace_config {
+  ftrace_events: "sched/sched_switch"
+  ftrace_events: "fastrpc/*"
+  ftrace_events: "adsprpc/*"
+  ftrace_events: "npu/*"
+  ftrace_events: "sched/sched_waking"
+  ftrace_events: "sched/sched_process_fork"
+  ftrace_events: "sched/sched_process_exec"
+  ftrace_events: "task/task_newtask"
+  ftrace_events: "task/task_rename"
+  ftrace_events: "power/cpu_frequency"
+  ftrace_events: "power/cpu_idle"
+  atrace_apps: "vn.ictu.thermalbench"
+} } }
+data_sources { config { name: "linux.process_stats" process_stats_config { scan_all_processes_on_start: true proc_stats_poll_ms: 100 } } }
+
+data_sources { config { name: "android.power" android_power_config {
+  battery_poll_ms: 1000
+  battery_counters: BATTERY_COUNTER_CAPACITY_PERCENT
+  battery_counters: BATTERY_COUNTER_CHARGE
+  battery_counters: BATTERY_COUNTER_CURRENT
+  collect_power_rails: true
+} } }

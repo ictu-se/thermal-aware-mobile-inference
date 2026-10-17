@@ -1,0 +1,3 @@
+workload,pairs,mean_fastvlm_minus_gemma_s,descriptive_95_interval_s,exclude_first_mean_s,adjusted_mean_s
+Short,29,-0.980,"[-1.088, -0.876]",-0.986,-0.978
+Long,30,-3.290,"[-3.416, -3.161]",-3.218,-3.290

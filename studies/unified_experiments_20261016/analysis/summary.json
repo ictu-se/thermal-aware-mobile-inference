@@ -1,0 +1,2432 @@
+{
+  "acquisition_status": "complete",
+  "fixed_work_individual": {
+    "gemma4-sm8750 / short": {
+      "n": 30,
+      "mean_s": 2.4097115668666667,
+      "median_s": 2.3218245565,
+      "sd_s": 0.2572899826958536
+    },
+    "fastvlm-sm8750 / short": {
+      "n": 29,
+      "mean_s": 1.434784379827586,
+      "median_s": 1.42007052,
+      "sd_s": 0.06505920131406388
+    },
+    "fastvlm-sm8750 / long": {
+      "n": 30,
+      "mean_s": 3.6877038962,
+      "median_s": 3.6300736445000004,
+      "sd_s": 0.13874614787771727
+    },
+    "gemma4-sm8750 / long": {
+      "n": 30,
+      "mean_s": 6.9772553932,
+      "median_s": 6.8319426535000005,
+      "sd_s": 0.4241484594695138
+    }
+  },
+  "long_sessions": [
+    {
+      "run": "u16-b0-repeated-fastvlm-sm8750",
+      "model": "fastvlm-sm8750",
+      "outcome": "thermal_stop",
+      "requests": 65,
+      "window_s": 88.116951372,
+      "severe_s": 87.830073664,
+      "early_tps": 92.77185394607324,
+      "late_tps": 91.77650050654512
+    },
+    {
+      "run": "u16-b0-repeated-gemma4-sm8750",
+      "model": "gemma4-sm8750",
+      "outcome": "thermal_stop",
+      "requests": 24,
+      "window_s": 61.39031232,
+      "severe_s": 60.813931956,
+      "early_tps": 39.34602593608078,
+      "late_tps": 39.241850529949694
+    },
+    {
+      "run": "u16-b1-repeated-gemma4-sm8750",
+      "model": "gemma4-sm8750",
+      "outcome": "thermal_stop",
+      "requests": 45,
+      "window_s": 105.760972304,
+      "severe_s": 103.41838845,
+      "early_tps": 41.20351276041404,
+      "late_tps": 42.75328513587604
+    },
+    {
+      "run": "u16-b1-repeated-fastvlm-sm8750",
+      "model": "fastvlm-sm8750",
+      "outcome": "thermal_stop",
+      "requests": 109,
+      "window_s": 142.734529216,
+      "severe_s": 142.454427185,
+      "early_tps": 97.5056007521777,
+      "late_tps": 96.29711415303665
+    },
+    {
+      "run": "u16-b2-repeated-fastvlm-sm8750",
+      "model": "fastvlm-sm8750",
+      "outcome": "thermal_stop",
+      "requests": 111,
+      "window_s": 145.770812184,
+      "severe_s": 145.576369684,
+      "early_tps": 95.54890473469933,
+      "late_tps": 94.37756133604715
+    },
+    {
+      "run": "u16-b2-repeated-gemma4-sm8750",
+      "model": "gemma4-sm8750",
+      "outcome": "thermal_stop",
+      "requests": 41,
+      "window_s": 104.445584648,
+      "severe_s": 102.445103398,
+      "early_tps": 38.74546593917532,
+      "late_tps": 38.935116083855654
+    },
+    {
+      "run": "u16-b3-repeated-gemma4-sm8750",
+      "model": "gemma4-sm8750",
+      "outcome": "thermal_stop",
+      "requests": 40,
+      "window_s": 90.955067569,
+      "severe_s": 90.70664809,
+      "early_tps": 44.57027663014216,
+      "late_tps": 44.10784781563547
+    },
+    {
+      "run": "u16-b3-repeated-fastvlm-sm8750",
+      "model": "fastvlm-sm8750",
+      "outcome": "thermal_stop",
+      "requests": 117,
+      "window_s": 150.990847755,
+      "severe_s": 150.687071089,
+      "early_tps": 98.38498268472729,
+      "late_tps": 97.57863168967118
+    },
+    {
+      "run": "u16-b4-repeated-fastvlm-sm8750",
+      "model": "fastvlm-sm8750",
+      "outcome": "thermal_stop",
+      "requests": 131,
+      "window_s": 173.923866028,
+      "severe_s": 173.376600091,
+      "early_tps": 96.9886589313713,
+      "late_tps": 95.86357704923486
+    },
+    {
+      "run": "u16-b4-repeated-gemma4-sm8750",
+      "model": "gemma4-sm8750",
+      "outcome": "thermal_stop",
+      "requests": 48,
+      "window_s": 108.571977146,
+      "severe_s": 107.185484647,
+      "early_tps": 45.016489125148624,
+      "late_tps": 43.3382104957253
+    },
+    {
+      "run": "u16-b5-repeated-gemma4-sm8750",
+      "model": "gemma4-sm8750",
+      "outcome": "thermal_stop",
+      "requests": 45,
+      "window_s": 102.846094908,
+      "severe_s": 102.371690429,
+      "early_tps": 44.635462557392636,
+      "late_tps": 44.03753214275388
+    },
+    {
+      "run": "u16-b5-repeated-fastvlm-sm8750",
+      "model": "fastvlm-sm8750",
+      "outcome": "thermal_stop",
+      "requests": 116,
+      "window_s": 151.348666453,
+      "severe_s": 150.163312703,
+      "early_tps": 99.06913863362203,
+      "late_tps": 95.1467124842489
+    }
+  ],
+  "overhead_pairs": [
+    {
+      "unit": "u16-overhead-fastvlm-sm8750-short-p0",
+      "full_s": 1.701963385,
+      "minimal_s": 1.534098697,
+      "difference_s": 0.1678646880000001
+    },
+    {
+      "unit": "u16-overhead-gemma4-sm8750-long-p0",
+      "full_s": 7.979943591,
+      "minimal_s": 7.441459372,
+      "difference_s": 0.5384842189999999
+    },
+    {
+      "unit": "u16-overhead-gemma4-sm8750-short-p0",
+      "full_s": 2.565289583,
+      "minimal_s": 3.217453696,
+      "difference_s": -0.652164113
+    },
+    {
+      "unit": "u16-overhead-fastvlm-sm8750-long-p0",
+      "full_s": 4.23810104,
+      "minimal_s": 3.951149061,
+      "difference_s": 0.2869519789999999
+    },
+    {
+      "unit": "u16-overhead-fastvlm-sm8750-long-p1",
+      "full_s": 3.818555363,
+      "minimal_s": 3.716110103,
+      "difference_s": 0.1024452600000001
+    },
+    {
+      "unit": "u16-overhead-gemma4-sm8750-short-p1",
+      "full_s": 2.456661093,
+      "minimal_s": 2.593269582,
+      "difference_s": -0.1366084889999999
+    },
+    {
+      "unit": "u16-overhead-gemma4-sm8750-long-p1",
+      "full_s": 6.918919685,
+      "minimal_s": 7.190339528,
+      "difference_s": -0.2714198430000003
+    },
+    {
+      "unit": "u16-overhead-fastvlm-sm8750-long-p2",
+      "full_s": 4.139875675,
+      "minimal_s": 3.997452863,
+      "difference_s": 0.14242281199999995
+    },
+    {
+      "unit": "u16-overhead-gemma4-sm8750-short-p2",
+      "full_s": 3.208620363,
+      "minimal_s": 2.403688332,
+      "difference_s": 0.8049320309999999
+    },
+    {
+      "unit": "u16-overhead-fastvlm-sm8750-short-p2",
+      "full_s": 1.417343124,
+      "minimal_s": 1.466031666,
+      "difference_s": -0.048688541999999835
+    },
+    {
+      "unit": "u16-overhead-fastvlm-sm8750-short-p3",
+      "full_s": 1.372844635,
+      "minimal_s": 1.508163749,
+      "difference_s": -0.13531911399999985
+    },
+    {
+      "unit": "u16-overhead-fastvlm-sm8750-long-p3",
+      "full_s": 3.50406328,
+      "minimal_s": 3.543499478,
+      "difference_s": -0.0394361980000002
+    },
+    {
+      "unit": "u16-overhead-gemma4-sm8750-short-p3",
+      "full_s": 2.271352968,
+      "minimal_s": 2.230764999,
+      "difference_s": 0.04058796900000017
+    },
+    {
+      "unit": "u16-overhead-gemma4-sm8750-long-p3",
+      "full_s": 6.80081656,
+      "minimal_s": 6.674614269,
+      "difference_s": 0.12620229100000024
+    },
+    {
+      "unit": "u16-overhead-fastvlm-sm8750-long-p4",
+      "full_s": 3.717160676,
+      "minimal_s": 3.533713124,
+      "difference_s": 0.18344755200000007
+    },
+    {
+      "unit": "u16-overhead-gemma4-sm8750-long-p4",
+      "full_s": 6.835472601,
+      "minimal_s": 6.645922237,
+      "difference_s": 0.18955036400000047
+    },
+    {
+      "unit": "u16-overhead-fastvlm-sm8750-short-p4",
+      "full_s": 1.513035937,
+      "minimal_s": 1.386342344,
+      "difference_s": 0.12669359299999994
+    },
+    {
+      "unit": "u16-overhead-gemma4-sm8750-short-p4",
+      "full_s": 2.750351509,
+      "minimal_s": 2.392284738,
+      "difference_s": 0.3580667710000003
+    },
+    {
+      "unit": "u16-overhead-gemma4-sm8750-long-p5",
+      "full_s": 6.607562966,
+      "minimal_s": 6.571617654,
+      "difference_s": 0.03594531199999995
+    },
+    {
+      "unit": "u16-overhead-gemma4-sm8750-short-p5",
+      "full_s": 2.230253124,
+      "minimal_s": 2.206690728,
+      "difference_s": 0.023562395999999985
+    },
+    {
+      "unit": "u16-overhead-fastvlm-sm8750-long-p5",
+      "full_s": 3.630668072,
+      "minimal_s": 3.76773354,
+      "difference_s": -0.13706546799999986
+    },
+    {
+      "unit": "u16-overhead-fastvlm-sm8750-short-p5",
+      "full_s": 1.412152343,
+      "minimal_s": 1.339120729,
+      "difference_s": 0.07303161400000002
+    },
+    {
+      "unit": "u16-overhead-gemma4-sm8750-short-p6",
+      "full_s": 2.270882968,
+      "minimal_s": 2.268187447,
+      "difference_s": 0.002695521000000145
+    },
+    {
+      "unit": "u16-overhead-fastvlm-sm8750-long-p6",
+      "full_s": 3.681307499,
+      "minimal_s": 3.711226405,
+      "difference_s": -0.029918906000000245
+    },
+    {
+      "unit": "u16-overhead-fastvlm-sm8750-short-p6",
+      "full_s": 1.364031666,
+      "minimal_s": 1.345024374,
+      "difference_s": 0.019007291999999953
+    },
+    {
+      "unit": "u16-overhead-gemma4-sm8750-long-p6",
+      "full_s": 7.160196195,
+      "minimal_s": 6.83003656,
+      "difference_s": 0.33015963500000023
+    },
+    {
+      "unit": "u16-overhead-gemma4-sm8750-short-p7",
+      "full_s": 2.252546145,
+      "minimal_s": 2.167441093,
+      "difference_s": 0.08510505200000029
+    },
+    {
+      "unit": "u16-overhead-fastvlm-sm8750-long-p7",
+      "full_s": 3.714140571,
+      "minimal_s": 3.723694269,
+      "difference_s": -0.009553697999999944
+    },
+    {
+      "unit": "u16-overhead-gemma4-sm8750-long-p7",
+      "full_s": 6.71100005,
+      "minimal_s": 6.454986873,
+      "difference_s": 0.2560131769999998
+    },
+    {
+      "unit": "u16-overhead-fastvlm-sm8750-short-p7",
+      "full_s": 1.422117395,
+      "minimal_s": 1.406835,
+      "difference_s": 0.015282394999999838
+    },
+    {
+      "unit": "u16-overhead-gemma4-sm8750-short-p8",
+      "full_s": 2.274079635,
+      "minimal_s": 2.173611926,
+      "difference_s": 0.10046770900000013
+    },
+    {
+      "unit": "u16-overhead-gemma4-sm8750-long-p8",
+      "full_s": 6.501465987,
+      "minimal_s": 6.571550519,
+      "difference_s": -0.07008453200000009
+    },
+    {
+      "unit": "u16-overhead-fastvlm-sm8750-long-p8",
+      "full_s": 3.762236769,
+      "minimal_s": 3.669662707,
+      "difference_s": 0.09257406199999973
+    },
+    {
+      "unit": "u16-overhead-fastvlm-sm8750-short-p8",
+      "full_s": 1.425134062,
+      "minimal_s": 1.394309739,
+      "difference_s": 0.03082432299999982
+    },
+    {
+      "unit": "u16-overhead-gemma4-sm8750-short-p9",
+      "full_s": 2.251769479,
+      "minimal_s": 2.314156979,
+      "difference_s": -0.06238749999999982
+    },
+    {
+      "unit": "u16-overhead-fastvlm-sm8750-short-p9",
+      "full_s": 1.370508489,
+      "minimal_s": 1.442221719,
+      "difference_s": -0.07171322999999985
+    },
+    {
+      "unit": "u16-overhead-gemma4-sm8750-long-p9",
+      "full_s": 6.54550531,
+      "minimal_s": 6.638715258,
+      "difference_s": -0.09320994800000015
+    },
+    {
+      "unit": "u16-overhead-fastvlm-sm8750-long-p9",
+      "full_s": 3.545782864,
+      "minimal_s": 3.683929217,
+      "difference_s": -0.13814635300000022
+    }
+  ],
+  "excluded": [
+    {
+      "run": "u16-overhead-fastvlm-sm8750-short-p1-full",
+      "reason": "recovery_timeout",
+      "design": {
+        "run_id": "u16-overhead-fastvlm-sm8750-short-p1-full",
+        "model": "fastvlm-sm8750",
+        "kind": "overhead",
+        "block": 0,
+        "workload": "short",
+        "pair": 1,
+        "prefill_tokens": 128,
+        "decode_tokens": 64,
+        "iterations": 1,
+        "monitoring": "full"
+      }
+    },
+    {
+      "run": "u16-overhead-gemma4-sm8750-long-p2-minimal",
+      "reason": "user_interruption_before_launch",
+      "design": {
+        "run_id": "u16-overhead-gemma4-sm8750-long-p2-minimal",
+        "model": "gemma4-sm8750",
+        "kind": "overhead",
+        "block": 1,
+        "workload": "long",
+        "pair": 2,
+        "prefill_tokens": 512,
+        "decode_tokens": 256,
+        "iterations": 1,
+        "monitoring": "minimal"
+      }
+    },
+    {
+      "run": "u16-b2-short-p3-fastvlm-sm8750",
+      "reason": "recovery_timeout",
+      "design": {
+        "run_id": "u16-b2-short-p3-fastvlm-sm8750",
+        "model": "fastvlm-sm8750",
+        "kind": "main",
+        "block": 2,
+        "workload": "short",
+        "pair": 3,
+        "prefill_tokens": 128,
+        "decode_tokens": 64,
+        "iterations": 1,
+        "monitoring": "full"
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "u16-overhead-fastvlm-sm8750-short-p0",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "u16-overhead-fastvlm-sm8750-short-p0-full",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-overhead-fastvlm-sm8750-short-p0-minimal",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "starting_skin_difference": 0.19899999999999807
+    },
+    {
+      "id": "u16-overhead-gemma4-sm8750-long-p0",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "u16-overhead-gemma4-sm8750-long-p0-full",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-overhead-gemma4-sm8750-long-p0-minimal",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "starting_skin_difference": 0.4590000000000032
+    },
+    {
+      "id": "u16-overhead-gemma4-sm8750-short-p0",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "u16-overhead-gemma4-sm8750-short-p0-full",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-overhead-gemma4-sm8750-short-p0-minimal",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "starting_skin_difference": 0.006999999999997897
+    },
+    {
+      "id": "u16-overhead-fastvlm-sm8750-long-p0",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "u16-overhead-fastvlm-sm8750-long-p0-full",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-overhead-fastvlm-sm8750-long-p0-minimal",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T123820Z",
+      "starting_skin_difference": 0.2120000000000033
+    },
+    {
+      "id": "u16-b0-repeated",
+      "kind": "repeated",
+      "members": [
+        {
+          "run": "u16-b0-repeated-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "thermal_stop"
+        },
+        {
+          "run": "u16-b0-repeated-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "thermal_stop"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T123820Z",
+      "starting_skin_difference": 0.29299999999999926
+    },
+    {
+      "id": "u16-b0-short-p0",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b0-short-p0-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b0-short-p0-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T123820Z",
+      "starting_skin_difference": 0.3359999999999985
+    },
+    {
+      "id": "u16-b0-short-p1",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b0-short-p1-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b0-short-p1-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T123820Z",
+      "starting_skin_difference": 0.015000000000000568
+    },
+    {
+      "id": "u16-b0-short-p2",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b0-short-p2-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b0-short-p2-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T123820Z",
+      "starting_skin_difference": 0.22100000000000009
+    },
+    {
+      "id": "u16-b0-short-p3",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b0-short-p3-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b0-short-p3-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T123820Z",
+      "starting_skin_difference": 0.7970000000000006
+    },
+    {
+      "id": "u16-b0-short-p4",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b0-short-p4-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b0-short-p4-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T123820Z",
+      "starting_skin_difference": 0.23900000000000077
+    },
+    {
+      "id": "u16-b0-long-p0",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b0-long-p0-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b0-long-p0-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T123820Z",
+      "starting_skin_difference": 0.0990000000000002
+    },
+    {
+      "id": "u16-b0-long-p1",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b0-long-p1-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b0-long-p1-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T123820Z",
+      "starting_skin_difference": 0.06099999999999994
+    },
+    {
+      "id": "u16-b0-long-p2",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b0-long-p2-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b0-long-p2-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T123820Z",
+      "starting_skin_difference": 0.03500000000000014
+    },
+    {
+      "id": "u16-b0-long-p3",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b0-long-p3-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b0-long-p3-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T123820Z",
+      "starting_skin_difference": 0.008999999999996788
+    },
+    {
+      "id": "u16-b0-long-p4",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b0-long-p4-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b0-long-p4-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T123820Z",
+      "starting_skin_difference": 0.6750000000000007
+    },
+    {
+      "id": "u16-overhead-fastvlm-sm8750-long-p1",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "u16-overhead-fastvlm-sm8750-long-p1-minimal",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-overhead-fastvlm-sm8750-long-p1-full",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T123820Z",
+      "starting_skin_difference": 0.5539999999999985
+    },
+    {
+      "id": "u16-overhead-gemma4-sm8750-short-p1",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "u16-overhead-gemma4-sm8750-short-p1-minimal",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-overhead-gemma4-sm8750-short-p1-full",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T123820Z",
+      "starting_skin_difference": 0.013000000000001677
+    },
+    {
+      "id": "u16-overhead-gemma4-sm8750-long-p1",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "u16-overhead-gemma4-sm8750-long-p1-minimal",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-overhead-gemma4-sm8750-long-p1-full",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T123820Z",
+      "starting_skin_difference": 0.06300000000000239
+    },
+    {
+      "id": "u16-overhead-fastvlm-sm8750-short-p1",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "u16-overhead-fastvlm-sm8750-short-p1-minimal",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": false,
+      "segment": "20261016T123820Z",
+      "starting_skin_difference": null
+    },
+    {
+      "id": "u16-overhead-gemma4-sm8750-long-p2",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "u16-overhead-gemma4-sm8750-long-p2-full",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": false,
+      "segment": "20261016T123820Z",
+      "starting_skin_difference": null,
+      "interrupted_by_user": true,
+      "remaining_member_unlaunched": true
+    },
+    {
+      "id": "u16-overhead-fastvlm-sm8750-long-p2",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "u16-overhead-fastvlm-sm8750-long-p2-full",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-overhead-fastvlm-sm8750-long-p2-minimal",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.08800000000000097
+    },
+    {
+      "id": "u16-overhead-gemma4-sm8750-short-p2",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "u16-overhead-gemma4-sm8750-short-p2-full",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-overhead-gemma4-sm8750-short-p2-minimal",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.46799999999999997
+    },
+    {
+      "id": "u16-overhead-fastvlm-sm8750-short-p2",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "u16-overhead-fastvlm-sm8750-short-p2-full",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-overhead-fastvlm-sm8750-short-p2-minimal",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.12300000000000111
+    },
+    {
+      "id": "u16-b1-repeated",
+      "kind": "repeated",
+      "members": [
+        {
+          "run": "u16-b1-repeated-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "thermal_stop"
+        },
+        {
+          "run": "u16-b1-repeated-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "thermal_stop"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.7530000000000001
+    },
+    {
+      "id": "u16-b1-long-p0",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b1-long-p0-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b1-long-p0-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.30400000000000205
+    },
+    {
+      "id": "u16-b1-long-p1",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b1-long-p1-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b1-long-p1-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.4400000000000013
+    },
+    {
+      "id": "u16-b1-long-p2",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b1-long-p2-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b1-long-p2-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.25099999999999767
+    },
+    {
+      "id": "u16-b1-long-p3",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b1-long-p3-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b1-long-p3-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.08000000000000185
+    },
+    {
+      "id": "u16-b1-long-p4",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b1-long-p4-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b1-long-p4-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.5150000000000006
+    },
+    {
+      "id": "u16-b1-short-p0",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b1-short-p0-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b1-short-p0-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.1039999999999992
+    },
+    {
+      "id": "u16-b1-short-p1",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b1-short-p1-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b1-short-p1-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.2960000000000029
+    },
+    {
+      "id": "u16-b1-short-p2",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b1-short-p2-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b1-short-p2-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.20899999999999963
+    },
+    {
+      "id": "u16-b1-short-p3",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b1-short-p3-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b1-short-p3-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.2569999999999979
+    },
+    {
+      "id": "u16-b1-short-p4",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b1-short-p4-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b1-short-p4-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.3030000000000008
+    },
+    {
+      "id": "u16-overhead-fastvlm-sm8750-short-p3",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "u16-overhead-fastvlm-sm8750-short-p3-minimal",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-overhead-fastvlm-sm8750-short-p3-full",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.4460000000000015
+    },
+    {
+      "id": "u16-overhead-fastvlm-sm8750-long-p3",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "u16-overhead-fastvlm-sm8750-long-p3-minimal",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-overhead-fastvlm-sm8750-long-p3-full",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.129999999999999
+    },
+    {
+      "id": "u16-overhead-gemma4-sm8750-short-p3",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "u16-overhead-gemma4-sm8750-short-p3-minimal",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-overhead-gemma4-sm8750-short-p3-full",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.1280000000000001
+    },
+    {
+      "id": "u16-overhead-gemma4-sm8750-long-p3",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "u16-overhead-gemma4-sm8750-long-p3-minimal",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-overhead-gemma4-sm8750-long-p3-full",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.1650000000000027
+    },
+    {
+      "id": "u16-overhead-fastvlm-sm8750-long-p4",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "u16-overhead-fastvlm-sm8750-long-p4-full",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-overhead-fastvlm-sm8750-long-p4-minimal",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.053000000000000824
+    },
+    {
+      "id": "u16-overhead-gemma4-sm8750-long-p4",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "u16-overhead-gemma4-sm8750-long-p4-full",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-overhead-gemma4-sm8750-long-p4-minimal",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.3299999999999983
+    },
+    {
+      "id": "u16-overhead-fastvlm-sm8750-short-p4",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "u16-overhead-fastvlm-sm8750-short-p4-full",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-overhead-fastvlm-sm8750-short-p4-minimal",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.0030000000000001137
+    },
+    {
+      "id": "u16-overhead-gemma4-sm8750-short-p4",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "u16-overhead-gemma4-sm8750-short-p4-full",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-overhead-gemma4-sm8750-short-p4-minimal",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.055999999999997385
+    },
+    {
+      "id": "u16-b2-repeated",
+      "kind": "repeated",
+      "members": [
+        {
+          "run": "u16-b2-repeated-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "thermal_stop"
+        },
+        {
+          "run": "u16-b2-repeated-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "thermal_stop"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.4009999999999998
+    },
+    {
+      "id": "u16-b2-short-p0",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b2-short-p0-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b2-short-p0-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.3829999999999991
+    },
+    {
+      "id": "u16-b2-short-p1",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b2-short-p1-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b2-short-p1-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.054000000000002046
+    },
+    {
+      "id": "u16-b2-short-p2",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b2-short-p2-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b2-short-p2-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.08299999999999841
+    },
+    {
+      "id": "u16-b2-short-p3",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b2-short-p3-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": false,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": null
+    },
+    {
+      "id": "u16-b2-short-p4",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b2-short-p4-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b2-short-p4-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.46999999999999886
+    },
+    {
+      "id": "u16-b2-long-p0",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b2-long-p0-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b2-long-p0-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.07600000000000051
+    },
+    {
+      "id": "u16-b2-long-p1",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b2-long-p1-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b2-long-p1-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.6009999999999991
+    },
+    {
+      "id": "u16-b2-long-p2",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b2-long-p2-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b2-long-p2-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.1720000000000006
+    },
+    {
+      "id": "u16-b2-long-p3",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b2-long-p3-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b2-long-p3-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.13700000000000045
+    },
+    {
+      "id": "u16-b2-long-p4",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b2-long-p4-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b2-long-p4-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.19899999999999807
+    },
+    {
+      "id": "u16-overhead-gemma4-sm8750-long-p5",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "u16-overhead-gemma4-sm8750-long-p5-minimal",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-overhead-gemma4-sm8750-long-p5-full",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.15300000000000225
+    },
+    {
+      "id": "u16-overhead-gemma4-sm8750-short-p5",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "u16-overhead-gemma4-sm8750-short-p5-minimal",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-overhead-gemma4-sm8750-short-p5-full",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.054999999999999716
+    },
+    {
+      "id": "u16-overhead-fastvlm-sm8750-long-p5",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "u16-overhead-fastvlm-sm8750-long-p5-minimal",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-overhead-fastvlm-sm8750-long-p5-full",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.19399999999999906
+    },
+    {
+      "id": "u16-overhead-fastvlm-sm8750-short-p5",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "u16-overhead-fastvlm-sm8750-short-p5-minimal",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-overhead-fastvlm-sm8750-short-p5-full",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.7189999999999976
+    },
+    {
+      "id": "u16-overhead-gemma4-sm8750-short-p6",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "u16-overhead-gemma4-sm8750-short-p6-full",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-overhead-gemma4-sm8750-short-p6-minimal",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.47800000000000153
+    },
+    {
+      "id": "u16-overhead-fastvlm-sm8750-long-p6",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "u16-overhead-fastvlm-sm8750-long-p6-full",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-overhead-fastvlm-sm8750-long-p6-minimal",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.2690000000000019
+    },
+    {
+      "id": "u16-overhead-fastvlm-sm8750-short-p6",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "u16-overhead-fastvlm-sm8750-short-p6-full",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-overhead-fastvlm-sm8750-short-p6-minimal",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.7480000000000011
+    },
+    {
+      "id": "u16-overhead-gemma4-sm8750-long-p6",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "u16-overhead-gemma4-sm8750-long-p6-full",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-overhead-gemma4-sm8750-long-p6-minimal",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.2469999999999999
+    },
+    {
+      "id": "u16-b3-repeated",
+      "kind": "repeated",
+      "members": [
+        {
+          "run": "u16-b3-repeated-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "thermal_stop"
+        },
+        {
+          "run": "u16-b3-repeated-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "thermal_stop"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.02699999999999747
+    },
+    {
+      "id": "u16-b3-long-p0",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b3-long-p0-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b3-long-p0-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.4239999999999995
+    },
+    {
+      "id": "u16-b3-long-p1",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b3-long-p1-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b3-long-p1-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.30200000000000315
+    },
+    {
+      "id": "u16-b3-long-p2",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b3-long-p2-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b3-long-p2-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.01600000000000179
+    },
+    {
+      "id": "u16-b3-long-p3",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b3-long-p3-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b3-long-p3-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.652000000000001
+    },
+    {
+      "id": "u16-b3-long-p4",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b3-long-p4-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b3-long-p4-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.18799999999999883
+    },
+    {
+      "id": "u16-b3-short-p0",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b3-short-p0-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b3-short-p0-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.030000000000001137
+    },
+    {
+      "id": "u16-b3-short-p1",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b3-short-p1-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b3-short-p1-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.003999999999997783
+    },
+    {
+      "id": "u16-b3-short-p2",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b3-short-p2-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b3-short-p2-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.593
+    },
+    {
+      "id": "u16-b3-short-p3",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b3-short-p3-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b3-short-p3-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.22800000000000153
+    },
+    {
+      "id": "u16-b3-short-p4",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b3-short-p4-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b3-short-p4-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.13700000000000045
+    },
+    {
+      "id": "u16-overhead-gemma4-sm8750-short-p7",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "u16-overhead-gemma4-sm8750-short-p7-minimal",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-overhead-gemma4-sm8750-short-p7-full",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.10200000000000031
+    },
+    {
+      "id": "u16-overhead-fastvlm-sm8750-long-p7",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "u16-overhead-fastvlm-sm8750-long-p7-minimal",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-overhead-fastvlm-sm8750-long-p7-full",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.5060000000000002
+    },
+    {
+      "id": "u16-overhead-gemma4-sm8750-long-p7",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "u16-overhead-gemma4-sm8750-long-p7-minimal",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-overhead-gemma4-sm8750-long-p7-full",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.25
+    },
+    {
+      "id": "u16-overhead-fastvlm-sm8750-short-p7",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "u16-overhead-fastvlm-sm8750-short-p7-minimal",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-overhead-fastvlm-sm8750-short-p7-full",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.06899999999999906
+    },
+    {
+      "id": "u16-overhead-gemma4-sm8750-short-p8",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "u16-overhead-gemma4-sm8750-short-p8-full",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-overhead-gemma4-sm8750-short-p8-minimal",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.22299999999999898
+    },
+    {
+      "id": "u16-overhead-gemma4-sm8750-long-p8",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "u16-overhead-gemma4-sm8750-long-p8-full",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-overhead-gemma4-sm8750-long-p8-minimal",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.6159999999999997
+    },
+    {
+      "id": "u16-overhead-fastvlm-sm8750-long-p8",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "u16-overhead-fastvlm-sm8750-long-p8-full",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-overhead-fastvlm-sm8750-long-p8-minimal",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.15100000000000335
+    },
+    {
+      "id": "u16-overhead-fastvlm-sm8750-short-p8",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "u16-overhead-fastvlm-sm8750-short-p8-full",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-overhead-fastvlm-sm8750-short-p8-minimal",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.3490000000000002
+    },
+    {
+      "id": "u16-b4-repeated",
+      "kind": "repeated",
+      "members": [
+        {
+          "run": "u16-b4-repeated-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "thermal_stop"
+        },
+        {
+          "run": "u16-b4-repeated-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "thermal_stop"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.20899999999999963
+    },
+    {
+      "id": "u16-b4-short-p0",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b4-short-p0-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b4-short-p0-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.2950000000000017
+    },
+    {
+      "id": "u16-b4-short-p1",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b4-short-p1-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b4-short-p1-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.18100000000000094
+    },
+    {
+      "id": "u16-b4-short-p2",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b4-short-p2-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b4-short-p2-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.3009999999999984
+    },
+    {
+      "id": "u16-b4-short-p3",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b4-short-p3-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b4-short-p3-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.7050000000000018
+    },
+    {
+      "id": "u16-b4-short-p4",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b4-short-p4-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b4-short-p4-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.35900000000000176
+    },
+    {
+      "id": "u16-b4-long-p0",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b4-long-p0-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b4-long-p0-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.02400000000000091
+    },
+    {
+      "id": "u16-b4-long-p1",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b4-long-p1-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b4-long-p1-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.11900000000000333
+    },
+    {
+      "id": "u16-b4-long-p2",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b4-long-p2-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b4-long-p2-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.3019999999999996
+    },
+    {
+      "id": "u16-b4-long-p3",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b4-long-p3-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b4-long-p3-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.5739999999999981
+    },
+    {
+      "id": "u16-b4-long-p4",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b4-long-p4-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b4-long-p4-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.20399999999999707
+    },
+    {
+      "id": "u16-overhead-gemma4-sm8750-short-p9",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "u16-overhead-gemma4-sm8750-short-p9-minimal",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-overhead-gemma4-sm8750-short-p9-full",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.11499999999999844
+    },
+    {
+      "id": "u16-overhead-fastvlm-sm8750-short-p9",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "u16-overhead-fastvlm-sm8750-short-p9-minimal",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-overhead-fastvlm-sm8750-short-p9-full",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.39299999999999713
+    },
+    {
+      "id": "u16-overhead-gemma4-sm8750-long-p9",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "u16-overhead-gemma4-sm8750-long-p9-minimal",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-overhead-gemma4-sm8750-long-p9-full",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.4540000000000006
+    },
+    {
+      "id": "u16-overhead-fastvlm-sm8750-long-p9",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "u16-overhead-fastvlm-sm8750-long-p9-minimal",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-overhead-fastvlm-sm8750-long-p9-full",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.08299999999999841
+    },
+    {
+      "id": "u16-b5-repeated",
+      "kind": "repeated",
+      "members": [
+        {
+          "run": "u16-b5-repeated-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "thermal_stop"
+        },
+        {
+          "run": "u16-b5-repeated-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "thermal_stop"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.5079999999999991
+    },
+    {
+      "id": "u16-b5-long-p0",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b5-long-p0-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b5-long-p0-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.23300000000000054
+    },
+    {
+      "id": "u16-b5-long-p1",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b5-long-p1-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b5-long-p1-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.10600000000000165
+    },
+    {
+      "id": "u16-b5-long-p2",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b5-long-p2-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b5-long-p2-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.04100000000000037
+    },
+    {
+      "id": "u16-b5-long-p3",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b5-long-p3-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b5-long-p3-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.7310000000000016
+    },
+    {
+      "id": "u16-b5-long-p4",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b5-long-p4-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b5-long-p4-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.16799999999999926
+    },
+    {
+      "id": "u16-b5-short-p0",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b5-short-p0-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b5-short-p0-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.25900000000000034
+    },
+    {
+      "id": "u16-b5-short-p1",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b5-short-p1-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b5-short-p1-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.16000000000000014
+    },
+    {
+      "id": "u16-b5-short-p2",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b5-short-p2-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b5-short-p2-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.6649999999999991
+    },
+    {
+      "id": "u16-b5-short-p3",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b5-short-p3-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b5-short-p3-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.15500000000000114
+    },
+    {
+      "id": "u16-b5-short-p4",
+      "kind": "main",
+      "members": [
+        {
+          "run": "u16-b5-short-p4-fastvlm-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "u16-b5-short-p4-gemma4-sm8750",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "20261016T150425Z",
+      "starting_skin_difference": 0.1769999999999996
+    }
+  ],
+  "note": "Descriptive live summary; unmatched main points are individual-only. Paired/block analysis and figure regeneration required after acquisition."
+}

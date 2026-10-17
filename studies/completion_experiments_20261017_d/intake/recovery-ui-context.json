@@ -1,0 +1,8 @@
+{
+  "observed_utc": "2026-10-17T10:55:56.083483+00:00",
+  "observed_foreground": "Android USB connection-mode settings",
+  "reason": "Restore the prescribed home-screen rest after user-authorized USB reconnection; retain recovery reference, deadline, and all outcomes.",
+  "action": "KEYCODE_HOME",
+  "returncode": 0,
+  "finished_utc": "2026-10-17T10:55:56.140176+00:00"
+}

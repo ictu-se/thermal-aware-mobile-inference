@@ -1,0 +1,185 @@
+{
+  "started_utc": "2026-10-17T12:21:21.564717+00:00",
+  "status": "complete",
+  "phase": "complete",
+  "completed": [
+    {
+      "run": "c17e-p0-overhead-0-fastvlm-sm8750-minimal",
+      "requests": 1,
+      "design": {
+        "run_id": "c17e-p0-overhead-0-fastvlm-sm8750-minimal",
+        "model": "fastvlm-sm8750",
+        "kind": "overhead",
+        "block": 0,
+        "workload": "short",
+        "pair": 0,
+        "prefill_tokens": 128,
+        "decode_tokens": 64,
+        "iterations": 1,
+        "monitoring": "minimal"
+      },
+      "segment": "initial"
+    },
+    {
+      "run": "c17e-p0-overhead-1-fastvlm-sm8750-full",
+      "requests": 1,
+      "design": {
+        "run_id": "c17e-p0-overhead-1-fastvlm-sm8750-full",
+        "model": "fastvlm-sm8750",
+        "kind": "overhead",
+        "block": 0,
+        "workload": "short",
+        "pair": 0,
+        "prefill_tokens": 128,
+        "decode_tokens": 64,
+        "iterations": 1,
+        "monitoring": "full"
+      },
+      "segment": "initial"
+    },
+    {
+      "run": "c17e-p1-overhead-0-gemma4-sm8750-full",
+      "requests": 1,
+      "design": {
+        "run_id": "c17e-p1-overhead-0-gemma4-sm8750-full",
+        "model": "gemma4-sm8750",
+        "kind": "overhead",
+        "block": 0,
+        "workload": "long",
+        "pair": 1,
+        "prefill_tokens": 512,
+        "decode_tokens": 256,
+        "iterations": 1,
+        "monitoring": "full"
+      },
+      "segment": "initial"
+    },
+    {
+      "run": "c17e-p1-overhead-1-gemma4-sm8750-minimal",
+      "requests": 1,
+      "design": {
+        "run_id": "c17e-p1-overhead-1-gemma4-sm8750-minimal",
+        "model": "gemma4-sm8750",
+        "kind": "overhead",
+        "block": 0,
+        "workload": "long",
+        "pair": 1,
+        "prefill_tokens": 512,
+        "decode_tokens": 256,
+        "iterations": 1,
+        "monitoring": "minimal"
+      },
+      "segment": "initial"
+    },
+    {
+      "run": "c17e-p2-main-0-gemma4-sm8750-full",
+      "requests": 1,
+      "design": {
+        "run_id": "c17e-p2-main-0-gemma4-sm8750-full",
+        "model": "gemma4-sm8750",
+        "kind": "main",
+        "block": 0,
+        "workload": "short",
+        "pair": 2,
+        "prefill_tokens": 128,
+        "decode_tokens": 64,
+        "iterations": 1,
+        "monitoring": "full"
+      },
+      "segment": "initial"
+    },
+    {
+      "run": "c17e-p2-main-1-fastvlm-sm8750-full",
+      "requests": 1,
+      "design": {
+        "run_id": "c17e-p2-main-1-fastvlm-sm8750-full",
+        "model": "fastvlm-sm8750",
+        "kind": "main",
+        "block": 0,
+        "workload": "short",
+        "pair": 2,
+        "prefill_tokens": 128,
+        "decode_tokens": 64,
+        "iterations": 1,
+        "monitoring": "full"
+      },
+      "segment": "initial"
+    }
+  ],
+  "thermal_stops": [],
+  "excluded": [],
+  "attempted": [
+    "c17e-p0-overhead-0-fastvlm-sm8750-minimal",
+    "c17e-p0-overhead-1-fastvlm-sm8750-full",
+    "c17e-p1-overhead-0-gemma4-sm8750-full",
+    "c17e-p1-overhead-1-gemma4-sm8750-minimal",
+    "c17e-p2-main-0-gemma4-sm8750-full",
+    "c17e-p2-main-1-fastvlm-sm8750-full"
+  ],
+  "units": [
+    {
+      "id": "c17e-p0-overhead",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "c17e-p0-overhead-0-fastvlm-sm8750-minimal",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "c17e-p0-overhead-1-fastvlm-sm8750-full",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "initial",
+      "starting_skin_difference": 0.0030000000000001137
+    },
+    {
+      "id": "c17e-p1-overhead",
+      "kind": "overhead",
+      "members": [
+        {
+          "run": "c17e-p1-overhead-0-gemma4-sm8750-full",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "c17e-p1-overhead-1-gemma4-sm8750-minimal",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "initial",
+      "starting_skin_difference": 0.26899999999999835
+    },
+    {
+      "id": "c17e-p2-main",
+      "kind": "main",
+      "members": [
+        {
+          "run": "c17e-p2-main-0-gemma4-sm8750-full",
+          "accepted": true,
+          "outcome": "completed"
+        },
+        {
+          "run": "c17e-p2-main-1-fastvlm-sm8750-full",
+          "accepted": true,
+          "outcome": "completed"
+        }
+      ],
+      "paired_complete": true,
+      "segment": "initial",
+      "starting_skin_difference": 0.19500000000000028
+    }
+  ],
+  "reference_skin": 29.004,
+  "current_run": null,
+  "segment_id": "initial",
+  "disabled_study_arms": [],
+  "schedule_exhausted": true,
+  "targets_all_observed": true,
+  "finished_utc": "2026-10-17T12:51:02.236553+00:00"
+}

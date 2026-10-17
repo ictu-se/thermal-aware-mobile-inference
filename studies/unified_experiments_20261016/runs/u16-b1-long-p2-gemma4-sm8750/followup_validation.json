@@ -1,0 +1,16 @@
+{
+  "accepted_observations": true,
+  "outcome": "completed",
+  "valid_request_count": 1,
+  "validation": {
+    "passed": true,
+    "issues": [],
+    "rows": 1,
+    "phase_rows": {
+      "warmup": 0,
+      "measure": 1
+    },
+    "backend_independently_verified": false
+  },
+  "app_outcome": "completed"
+}

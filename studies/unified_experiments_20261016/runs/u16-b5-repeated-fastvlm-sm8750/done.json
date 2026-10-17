@@ -1,0 +1,9 @@
+{
+  "complete": true,
+  "outcome": "thermal_stop",
+  "measured_requests": 116,
+  "first_request_ns": 322448577252243,
+  "last_request_end_ns": 322599925918696,
+  "device_monotonic_ns": 322600033363071,
+  "device_wall_ms": 1792189429647
+}

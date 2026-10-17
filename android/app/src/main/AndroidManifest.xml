@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<uses-permission android:name="android.permission.WAKE_LOCK"/>
+<application android:label="Thermal Inference Lab" android:theme="@android:style/Theme.Material.Light.NoActionBar" android:allowBackup="false" android:extractNativeLibs="true">
+<uses-native-library android:name="libcdsprpc.so" android:required="false"/>
+<uses-native-library android:name="libadsprpc.so" android:required="false"/>
+<uses-native-library android:name="libOpenCL.so" android:required="false"/>
+<uses-native-library android:name="libvndksupport.so" android:required="false"/>
+<activity android:name=".BenchmarkActivity" android:exported="true"><intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter></activity>
+</application></manifest>

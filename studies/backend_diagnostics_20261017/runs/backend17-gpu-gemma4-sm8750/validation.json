@@ -1,0 +1,15 @@
+{
+  "passed": false,
+  "issues": [
+    "fixed_work_mismatch",
+    "invalid_actual_token_counts",
+    "missing_nonfinite_or_nonpositive_metric",
+    "non_ok_rows"
+  ],
+  "rows": 1,
+  "phase_rows": {
+    "warmup": 0,
+    "measure": 0
+  },
+  "backend_independently_verified": false
+}

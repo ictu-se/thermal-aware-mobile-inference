@@ -1,0 +1,6 @@
+run,reason,kind
+c17d-p0-overhead-1-fastvlm-sm8750-full,recovery_timeout,overhead
+c17d-p1-overhead-0-gemma4-sm8750-full,recovery_timeout,overhead
+c17d-p1-overhead-1-gemma4-sm8750-minimal,unlaunched_pair_partner,overhead
+c17d-p2-main-0-gemma4-sm8750-full,recovery_timeout,main
+c17d-p2-main-1-fastvlm-sm8750-full,unlaunched_pair_partner,main

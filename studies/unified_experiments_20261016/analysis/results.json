@@ -1,0 +1,261 @@
+{
+  "campaign": "unified-20261016",
+  "status": "complete",
+  "valid_requests_by_kind": {
+    "overhead": 78,
+    "main": 119,
+    "repeated": 892
+  },
+  "completed_main_pairs": 59,
+  "completed_monitoring_pairs": 38,
+  "repeated_outcomes": {
+    "thermal_stop": 12
+  },
+  "exclusion_reasons": {
+    "recovery_timeout": 2,
+    "user_interruption_before_launch": 1
+  },
+  "bootstrap": {
+    "method": "percentile, whole segment-by-scheduled-block resampling",
+    "resamples": 10000,
+    "seed": 20261016
+  },
+  "main": {
+    "short": {
+      "differences": {
+        "n": 29,
+        "mean": -0.9797692543793104,
+        "median": -0.900070885,
+        "sd": 0.22225166224148352,
+        "mad": 0.08588927000000002
+      },
+      "descriptive_block_interval_95": [
+        -1.0879458831785713,
+        -0.8756084388333335
+      ],
+      "sensitivity": {
+        "adjusted_at_equal_start_skin_s": -0.9779214232403783,
+        "exclude_first_pair_per_block": {
+          "n": 23,
+          "mean": -0.9856395037391305,
+          "median": -0.913736146,
+          "sd": 0.23964790187911195,
+          "mad": 0.099554531
+        },
+        "starting_skin_difference_at_most_0_5": {
+          "n": 25,
+          "mean": -0.9793727518,
+          "median": -0.900070885,
+          "sd": 0.21815574482413153,
+          "mad": 0.081310208
+        }
+      }
+    },
+    "long": {
+      "differences": {
+        "n": 30,
+        "mean": -3.289551497,
+        "median": -3.2111468480000003,
+        "sd": 0.34537545351926424,
+        "mad": 0.20573669299999997
+      },
+      "descriptive_block_interval_95": [
+        -3.415665498733333,
+        -3.1613915369999996
+      ],
+      "sensitivity": {
+        "adjusted_at_equal_start_skin_s": -3.2899523322406954,
+        "exclude_first_pair_per_block": {
+          "n": 24,
+          "mean": -3.21771515725,
+          "median": -3.157511405,
+          "sd": 0.3219029380021539,
+          "mad": 0.14451351600000018
+        },
+        "starting_skin_difference_at_most_0_5": {
+          "n": 24,
+          "mean": -3.2805427439583332,
+          "median": -3.2111468480000003,
+          "sd": 0.3015237520342436,
+          "mad": 0.18955864599999983
+        }
+      }
+    }
+  },
+  "overhead": {
+    "fastvlm-sm8750/short": {
+      "full_minus_minimal_s": {
+        "n": 9,
+        "mean": 0.019664779888888904,
+        "median": 0.019007291999999953,
+        "sd": 0.09582059815268527,
+        "mad": 0.06769583399999979
+      },
+      "relative_difference_percent": {
+        "n": 9,
+        "mean": 1.4420930132770269,
+        "median": 1.413155952220681,
+        "sd": 6.50574867239358,
+        "mad": 4.734267162106364
+      },
+      "descriptive_block_interval_95": [
+        -0.049591973555555495,
+        0.09207655055555551
+      ]
+    },
+    "fastvlm-sm8750/long": {
+      "full_minus_minimal_s": {
+        "n": 10,
+        "mean": 0.04537210419999993,
+        "median": 0.041510181999999896,
+        "sd": 0.13951120822386928,
+        "mad": 0.09092950500000008
+      },
+      "relative_difference_percent": {
+        "n": 10,
+        "mean": 1.1732657005323706,
+        "median": 1.1330604028609594,
+        "sd": 3.6793245414895446,
+        "mad": 2.3378778875883666
+      },
+      "descriptive_block_interval_95": [
+        -0.03229387337500017,
+        0.12256060399999993
+      ]
+    },
+    "gemma4-sm8750/short": {
+      "full_minus_minimal_s": {
+        "n": 10,
+        "mean": 0.05642573470000012,
+        "median": 0.03207518250000008,
+        "sd": 0.3669252614425105,
+        "mad": 0.08142760449999997
+      },
+      "relative_difference_percent": {
+        "n": 10,
+        "mean": 3.1776400182656506,
+        "median": 1.4436173920062674,
+        "sd": 13.870744402123824,
+        "mad": 3.6590304918104266
+      },
+      "descriptive_block_interval_95": [
+        -0.1949835068595237,
+        0.2395006425000001
+      ]
+    },
+    "gemma4-sm8750/long": {
+      "full_minus_minimal_s": {
+        "n": 9,
+        "mean": 0.11573785277777777,
+        "median": 0.12620229100000024,
+        "sd": 0.24606229440159982,
+        "mad": 0.19628682300000033
+      },
+      "relative_difference_percent": {
+        "n": 9,
+        "mean": 1.67565804953094,
+        "median": 1.8907802895238774,
+        "sd": 3.456097466546134,
+        "mad": 2.943156280209511
+      },
+      "descriptive_block_interval_95": [
+        -0.05595576837500005,
+        0.27154994028571433
+      ]
+    }
+  },
+  "limits": "Single handset, external power, actual ambient temperature unmeasured; separate acquisition with upper-only global baseline bounds and symmetric within-pair multi-sensor matching. Explicit pause/resume creates separate labeled acquisition segments, not independent environmental resets. Minimal telemetry is not zero overhead. No independent NPU placement proof.",
+  "requests_by_segment_and_kind": {
+    "initial/overhead": 6,
+    "20261016T123820Z/overhead": 10,
+    "20261016T123820Z/main": 20,
+    "20261016T150425Z/overhead": 62,
+    "20261016T150425Z/main": 99,
+    "20261016T123820Z/repeated": 89,
+    "20261016T150425Z/repeated": 803
+  },
+  "monitoring_by_segment": {
+    "20261016T123820Z": {
+      "fastvlm-sm8750/short": {
+        "n": 0
+      },
+      "fastvlm-sm8750/long": {
+        "n": 2,
+        "mean": 0.1946986195,
+        "median": 0.1946986195,
+        "sd": 0.13046595217938067,
+        "mad": 0.09225335949999991
+      },
+      "gemma4-sm8750/short": {
+        "n": 1,
+        "mean": -0.1366084889999999,
+        "median": -0.1366084889999999,
+        "sd": null,
+        "mad": 0.0
+      },
+      "gemma4-sm8750/long": {
+        "n": 1,
+        "mean": -0.2714198430000003,
+        "median": -0.2714198430000003,
+        "sd": null,
+        "mad": 0.0
+      }
+    },
+    "20261016T150425Z": {
+      "fastvlm-sm8750/short": {
+        "n": 8,
+        "mean": 0.0011397913750000044,
+        "median": 0.017144843499999896,
+        "sd": 0.08344723044539468,
+        "mad": 0.06086007799999993
+      },
+      "fastvlm-sm8750/long": {
+        "n": 8,
+        "mean": 0.008040475374999911,
+        "median": -0.019736302000000094,
+        "sd": 0.12095040888939267,
+        "mad": 0.1148197649999998
+      },
+      "gemma4-sm8750/short": {
+        "n": 8,
+        "mean": 0.16912874362500013,
+        "median": 0.06284651050000023,
+        "sd": 0.2855395388715725,
+        "mad": 0.049717552000000165
+      },
+      "gemma4-sm8750/long": {
+        "n": 7,
+        "mean": 0.11065375700000006,
+        "median": 0.12620229100000024,
+        "sd": 0.16103142242341073,
+        "mad": 0.12981088599999957
+      }
+    },
+    "initial": {
+      "fastvlm-sm8750/short": {
+        "n": 1,
+        "mean": 0.1678646880000001,
+        "median": 0.1678646880000001,
+        "sd": null,
+        "mad": 0.0
+      },
+      "fastvlm-sm8750/long": {
+        "n": 0
+      },
+      "gemma4-sm8750/short": {
+        "n": 1,
+        "mean": -0.652164113,
+        "median": -0.652164113,
+        "sd": null,
+        "mad": 0.0
+      },
+      "gemma4-sm8750/long": {
+        "n": 1,
+        "mean": 0.5384842189999999,
+        "median": 0.5384842189999999,
+        "sd": null,
+        "mad": 0.0
+      }
+    }
+  }
+}

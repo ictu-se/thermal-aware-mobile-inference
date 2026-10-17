@@ -1,0 +1,78 @@
+{
+  "campaign": "completion-20261017-c17d",
+  "status": "complete",
+  "valid_requests_by_kind": {
+    "overhead": 1
+  },
+  "completed_main_pairs": 0,
+  "completed_monitoring_pairs": 0,
+  "repeated_outcomes": {},
+  "exclusion_reasons": {
+    "recovery_timeout": 3,
+    "unlaunched_pair_partner": 2
+  },
+  "bootstrap": {
+    "method": "percentile, whole segment-by-scheduled-block resampling",
+    "resamples": 10000,
+    "seed": 20261016
+  },
+  "main": {
+    "short": {
+      "differences": {
+        "n": 0
+      },
+      "descriptive_block_interval_95": null,
+      "sensitivity": {}
+    },
+    "long": {
+      "differences": {
+        "n": 0
+      },
+      "descriptive_block_interval_95": null,
+      "sensitivity": {}
+    }
+  },
+  "overhead": {
+    "fastvlm-sm8750/short": {
+      "full_minus_minimal_s": {
+        "n": 0
+      },
+      "relative_difference_percent": {
+        "n": 0
+      },
+      "descriptive_block_interval_95": null
+    },
+    "fastvlm-sm8750/long": {
+      "full_minus_minimal_s": {
+        "n": 0
+      },
+      "relative_difference_percent": {
+        "n": 0
+      },
+      "descriptive_block_interval_95": null
+    },
+    "gemma4-sm8750/short": {
+      "full_minus_minimal_s": {
+        "n": 0
+      },
+      "relative_difference_percent": {
+        "n": 0
+      },
+      "descriptive_block_interval_95": null
+    },
+    "gemma4-sm8750/long": {
+      "full_minus_minimal_s": {
+        "n": 0
+      },
+      "relative_difference_percent": {
+        "n": 0
+      },
+      "descriptive_block_interval_95": null
+    }
+  },
+  "limits": "Single handset, external power, actual ambient temperature unmeasured; separate acquisition with upper-only global baseline bounds and symmetric within-pair multi-sensor matching. Explicit pause/resume creates separate labeled acquisition segments, not independent environmental resets. Minimal telemetry is not zero overhead. No independent NPU placement proof.",
+  "requests_by_segment_and_kind": {
+    "initial/overhead": 1
+  },
+  "monitoring_by_segment": {}
+}

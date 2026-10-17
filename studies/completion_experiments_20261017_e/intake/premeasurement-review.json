@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-17T12:21:14.137810+00:00",
+  "previous_study": "completion_experiments_20261017_d",
+  "previous_accepted_requests": 1,
+  "previous_excluded_members": 5,
+  "new_identities": true,
+  "new_idle_reference": true,
+  "same_gates_and_budgets": true,
+  "no_pooling": true,
+  "one_new_bounded_campaign": true
+}

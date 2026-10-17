@@ -1,0 +1,97 @@
+{
+  "created_utc": "2026-10-17T12:27:05.867815+00:00",
+  "campaign_id": "backend-diagnostics-20261017",
+  "application_version": "0.2.0",
+  "runtime": "LiteRT-LM 0.18.0",
+  "seed": 20261017,
+  "power_policy": "wired external power, actual connection recorded",
+  "battery_minimum_percent": 99,
+  "stable_seconds": 60,
+  "maximum_sample_gap_seconds": 10,
+  "recovery_poll_seconds": 5,
+  "stable_window_span_hal_units": 1.5,
+  "skin_window_hal_units": 1.0,
+  "baseline_tolerances": {
+    "skin": 2.0,
+    "battery_hal": 2.0,
+    "nsp0": 8.0
+  },
+  "pair_tolerances": {
+    "skin": 1.0,
+    "battery_hal": 1.0,
+    "nsp0": 5.0
+  },
+  "baseline_policy": "Median of separate 600-second idle calibration after near-full-charge stable gate. Baseline limits are upper bounds only; a colder start is permitted. Absolute symmetric within-pair matching on skin, battery HAL, and nsp0 remains required. The reference is fixed for every pair.",
+  "calibration_seconds": 600,
+  "maximum_recovery_seconds": 1800,
+  "minimum_block_rest_seconds": 300,
+  "thermal_stop_severity": 3,
+  "overhead_policy": "Same binary; full app telemetry plus 1 Hz HAL polling versus minimal telemetry without HAL polling; both retain request timing, counts, callbacks, thermal checks and result logging. Minimal is not zero overhead.",
+  "environment": {
+    "recorded_utc": "2026-10-16T09:14:35.711250+00:00",
+    "source": "User report in current conversation, 16 October 2026",
+    "case_state": "removed",
+    "fold_state": "unfolded",
+    "support_surface": "table; material not specified",
+    "air_conditioner_setpoint_c": 26,
+    "ambient_measured_c": null,
+    "ambient_instrument": "not_reported",
+    "ventilation_detail": "air-conditioned room; airflow not measured",
+    "phone_use_policy": "Requested stationary and no interaction during acquisition",
+    "reconfirmed_after_reconnection": true,
+    "actual_ambient_measured_c": null,
+    "rest_display_context": "Home screen selected before initial rest; other background services remain enabled.",
+    "reconfirmation_source": "User confirmation on 17 October 2026; actual room temperature remains unmeasured"
+  },
+  "target_main_requests": 0,
+  "target_repeated_sessions": 0,
+  "target_overhead_requests": 0,
+  "target_total_scheduled_requests_or_sessions": 18,
+  "stop_policy": "One attempt per condition, no automatic retry. NPU control supplies the within-model start reference. If that control has no eligible launch state, its CPU/GPU conditions remain unlaunched. Errors and validation failures are retained.",
+  "analysis_policy": "Report counts, errors, individual durations, starting sensors and trace coverage. Three requests within one capture are dependent observations; no inference from independent replicates, no pooling with primary or supplementary timing estimates.",
+  "timing_policy": "Fixed call timer around SDK benchmark invocation, outside event/log writes; long duration starts at first measured invocation. Different app version and boundary from prior acquisitions.",
+  "unresolved": [
+    "Actual measured ambient temperature",
+    "Independent NPU operator/fallback profile",
+    "Exact native EOS/cap reason",
+    "Physical sensor calibration",
+    "Zero-monitoring reference (minimal retains safety and timing)"
+  ],
+  "baseline_comparison": "upper_only",
+  "amendment_from": "completion_experiments_20261017_d",
+  "amendment_rationale": "User explicitly requested completing all feasible experiments after repeated USB failures; this grid is specified before any of its observations. Reuses the verified binary and package digests.",
+  "scheduling_policy": "Three fixed paired units in their original planned member order; overhead FastVLM short, overhead Gemma long, main short. Actual order fixed in planned_units before first measurement.",
+  "initial_recovery_deadline_seconds": 1800,
+  "baseline_restart_budget": 0,
+  "target_diagnostic_conditions": 6,
+  "target_calls_per_condition": 3,
+  "trace_duration_seconds": 60,
+  "baseline_source": "completion_experiments_20261017_e",
+  "purpose": "Requested-backend compatibility and trace evidence on the identical pinned model packages; no CPU/GPU/NPU speed ranking or independently verified placement claim",
+  "schedule": [
+    {
+      "model": "fastvlm-sm8750",
+      "backend": "NPU"
+    },
+    {
+      "model": "fastvlm-sm8750",
+      "backend": "CPU"
+    },
+    {
+      "model": "fastvlm-sm8750",
+      "backend": "GPU"
+    },
+    {
+      "model": "gemma4-sm8750",
+      "backend": "NPU"
+    },
+    {
+      "model": "gemma4-sm8750",
+      "backend": "GPU"
+    },
+    {
+      "model": "gemma4-sm8750",
+      "backend": "CPU"
+    }
+  ]
+}

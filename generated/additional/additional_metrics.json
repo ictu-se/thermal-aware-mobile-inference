@@ -1,0 +1,511 @@
+{
+  "retry": {
+    "status": "complete",
+    "accepted_requests": 6,
+    "complete_pairs": 3,
+    "excluded_members": 0,
+    "baseline": {
+      "skin": 29.3575,
+      "battery_hal": 30.0,
+      "nsp0": 31.6
+    },
+    "pairs": [
+      {
+        "unit": "c17e-p0-overhead",
+        "condition": "Monitoring",
+        "packages": "FastVLM",
+        "first_quantity_s": 1.472714687,
+        "second_quantity_s": 1.700159426,
+        "difference_s": -0.22744473899999984,
+        "complete_pair": true
+      },
+      {
+        "unit": "c17e-p1-overhead",
+        "condition": "Monitoring",
+        "packages": "Gemma",
+        "first_quantity_s": 8.66612333,
+        "second_quantity_s": 7.597958486,
+        "difference_s": 1.068164844,
+        "complete_pair": true
+      },
+      {
+        "unit": "c17e-p2-main",
+        "condition": "Main short",
+        "packages": "FastVLM/Gemma",
+        "first_quantity_s": 1.426235885,
+        "second_quantity_s": 2.362463593,
+        "difference_s": -0.9362277080000001,
+        "complete_pair": true
+      }
+    ]
+  },
+  "backend": {
+    "status": "complete",
+    "conditions": [
+      {
+        "cohort": "Grid",
+        "run": "backend17-npu-fastvlm-sm8750",
+        "model": "fastvlm-sm8750",
+        "backend": "NPU",
+        "outcome": "captured",
+        "phase_slices": 3,
+        "trace_available": true,
+        "complete_phase_slices": 3,
+        "application_cpu_available": true,
+        "observed_application_cpu_ms": 4293.720012,
+        "independent_npu_operator_placement_verified": false,
+        "accepted_requests": 3,
+        "observed_success_rows": 3,
+        "planned_calls": 3,
+        "started_calls": 3,
+        "unlaunched_calls": 0,
+        "initialization_error_tag": null,
+        "median_sdk_call_s": 1.25763401,
+        "individual_sdk_call_s": [
+          1.388963906,
+          1.216756406,
+          1.25763401
+        ],
+        "start_skin": 28.909,
+        "start_battery_hal": 30.0,
+        "start_nsp0": 31.6,
+        "start_severity": 0,
+        "libraries_recorded": true,
+        "qnn_library_loaded": true
+      },
+      {
+        "cohort": "Grid",
+        "run": "backend17-cpu-fastvlm-sm8750",
+        "model": "fastvlm-sm8750",
+        "backend": "CPU",
+        "outcome": "application_or_validation_failure",
+        "phase_slices": 1,
+        "trace_available": true,
+        "complete_phase_slices": 0,
+        "application_cpu_available": true,
+        "observed_application_cpu_ms": 1008.27287,
+        "independent_npu_operator_placement_verified": false,
+        "accepted_requests": 0,
+        "observed_success_rows": 0,
+        "planned_calls": 3,
+        "started_calls": 1,
+        "unlaunched_calls": 2,
+        "initialization_error_tag": "input_tensor_not_found",
+        "median_sdk_call_s": null,
+        "individual_sdk_call_s": [],
+        "start_skin": 28.64,
+        "start_battery_hal": 30.0,
+        "start_nsp0": 31.2,
+        "start_severity": 0,
+        "libraries_recorded": false,
+        "qnn_library_loaded": null
+      },
+      {
+        "cohort": "Grid",
+        "run": "backend17-gpu-fastvlm-sm8750",
+        "model": "fastvlm-sm8750",
+        "backend": "GPU",
+        "outcome": "application_or_validation_failure",
+        "phase_slices": 1,
+        "trace_available": true,
+        "complete_phase_slices": 0,
+        "application_cpu_available": true,
+        "observed_application_cpu_ms": 1003.348502,
+        "independent_npu_operator_placement_verified": false,
+        "accepted_requests": 0,
+        "observed_success_rows": 0,
+        "planned_calls": 3,
+        "started_calls": 1,
+        "unlaunched_calls": 2,
+        "initialization_error_tag": "input_tensor_not_found",
+        "median_sdk_call_s": null,
+        "individual_sdk_call_s": [],
+        "start_skin": 28.548,
+        "start_battery_hal": 29.0,
+        "start_nsp0": 31.2,
+        "start_severity": 0,
+        "libraries_recorded": false,
+        "qnn_library_loaded": null
+      },
+      {
+        "cohort": "Grid",
+        "run": "backend17-npu-gemma4-sm8750",
+        "model": "gemma4-sm8750",
+        "backend": "NPU",
+        "outcome": "captured",
+        "phase_slices": 3,
+        "trace_available": true,
+        "complete_phase_slices": 3,
+        "application_cpu_available": true,
+        "observed_application_cpu_ms": 5942.773706,
+        "independent_npu_operator_placement_verified": false,
+        "accepted_requests": 3,
+        "observed_success_rows": 3,
+        "planned_calls": 3,
+        "started_calls": 3,
+        "unlaunched_calls": 0,
+        "initialization_error_tag": null,
+        "median_sdk_call_s": 2.385182759,
+        "individual_sdk_call_s": [
+          2.422121979,
+          2.313843072,
+          2.385182759
+        ],
+        "start_skin": 28.945,
+        "start_battery_hal": 29.0,
+        "start_nsp0": 30.8,
+        "start_severity": 0,
+        "libraries_recorded": true,
+        "qnn_library_loaded": true
+      },
+      {
+        "cohort": "Grid",
+        "run": "backend17-gpu-gemma4-sm8750",
+        "model": "gemma4-sm8750",
+        "backend": "GPU",
+        "outcome": "application_or_validation_failure",
+        "phase_slices": 1,
+        "trace_available": true,
+        "complete_phase_slices": 0,
+        "application_cpu_available": true,
+        "observed_application_cpu_ms": 1089.828858,
+        "independent_npu_operator_placement_verified": false,
+        "accepted_requests": 0,
+        "observed_success_rows": 0,
+        "planned_calls": 3,
+        "started_calls": 1,
+        "unlaunched_calls": 2,
+        "initialization_error_tag": "input_tensor_not_found",
+        "median_sdk_call_s": null,
+        "individual_sdk_call_s": [],
+        "start_skin": 29.169,
+        "start_battery_hal": 30.0,
+        "start_nsp0": 31.6,
+        "start_severity": 0,
+        "libraries_recorded": false,
+        "qnn_library_loaded": null
+      },
+      {
+        "cohort": "Grid",
+        "run": "backend17-cpu-gemma4-sm8750",
+        "model": "gemma4-sm8750",
+        "backend": "CPU",
+        "outcome": "application_or_validation_failure",
+        "phase_slices": 1,
+        "trace_available": true,
+        "complete_phase_slices": 0,
+        "application_cpu_available": true,
+        "observed_application_cpu_ms": 1085.405119,
+        "independent_npu_operator_placement_verified": false,
+        "accepted_requests": 0,
+        "observed_success_rows": 0,
+        "planned_calls": 3,
+        "started_calls": 1,
+        "unlaunched_calls": 2,
+        "initialization_error_tag": "input_tensor_not_found",
+        "median_sdk_call_s": null,
+        "individual_sdk_call_s": [],
+        "start_skin": 28.826,
+        "start_battery_hal": 30.0,
+        "start_nsp0": 31.2,
+        "start_severity": 0,
+        "libraries_recorded": false,
+        "qnn_library_loaded": null
+      }
+    ]
+  },
+  "profiles": [
+    {
+      "cohort": "Retry",
+      "run": "c17e-profile-fixed-fastvlm-sm8750",
+      "model": "fastvlm-sm8750",
+      "backend": "NPU",
+      "outcome": "captured",
+      "phase_slices": 3,
+      "trace_available": true,
+      "complete_phase_slices": 3,
+      "application_cpu_available": true,
+      "observed_application_cpu_ms": 4343.900985,
+      "independent_npu_operator_placement_verified": false
+    },
+    {
+      "cohort": "Retry",
+      "run": "c17e-profile-fixed-gemma4-sm8750",
+      "model": "gemma4-sm8750",
+      "backend": "NPU",
+      "outcome": "captured",
+      "phase_slices": 3,
+      "trace_available": true,
+      "complete_phase_slices": 3,
+      "application_cpu_available": true,
+      "observed_application_cpu_ms": 5904.30423,
+      "independent_npu_operator_placement_verified": false
+    },
+    {
+      "cohort": "Grid",
+      "run": "backend17-npu-fastvlm-sm8750",
+      "model": "fastvlm-sm8750",
+      "backend": "NPU",
+      "outcome": "captured",
+      "phase_slices": 3,
+      "trace_available": true,
+      "complete_phase_slices": 3,
+      "application_cpu_available": true,
+      "observed_application_cpu_ms": 4293.720012,
+      "independent_npu_operator_placement_verified": false
+    },
+    {
+      "cohort": "Grid",
+      "run": "backend17-cpu-fastvlm-sm8750",
+      "model": "fastvlm-sm8750",
+      "backend": "CPU",
+      "outcome": "application_or_validation_failure",
+      "phase_slices": 1,
+      "trace_available": true,
+      "complete_phase_slices": 0,
+      "application_cpu_available": true,
+      "observed_application_cpu_ms": 1008.27287,
+      "independent_npu_operator_placement_verified": false
+    },
+    {
+      "cohort": "Grid",
+      "run": "backend17-gpu-fastvlm-sm8750",
+      "model": "fastvlm-sm8750",
+      "backend": "GPU",
+      "outcome": "application_or_validation_failure",
+      "phase_slices": 1,
+      "trace_available": true,
+      "complete_phase_slices": 0,
+      "application_cpu_available": true,
+      "observed_application_cpu_ms": 1003.348502,
+      "independent_npu_operator_placement_verified": false
+    },
+    {
+      "cohort": "Grid",
+      "run": "backend17-npu-gemma4-sm8750",
+      "model": "gemma4-sm8750",
+      "backend": "NPU",
+      "outcome": "captured",
+      "phase_slices": 3,
+      "trace_available": true,
+      "complete_phase_slices": 3,
+      "application_cpu_available": true,
+      "observed_application_cpu_ms": 5942.773706,
+      "independent_npu_operator_placement_verified": false
+    },
+    {
+      "cohort": "Grid",
+      "run": "backend17-gpu-gemma4-sm8750",
+      "model": "gemma4-sm8750",
+      "backend": "GPU",
+      "outcome": "application_or_validation_failure",
+      "phase_slices": 1,
+      "trace_available": true,
+      "complete_phase_slices": 0,
+      "application_cpu_available": true,
+      "observed_application_cpu_ms": 1089.828858,
+      "independent_npu_operator_placement_verified": false
+    },
+    {
+      "cohort": "Grid",
+      "run": "backend17-cpu-gemma4-sm8750",
+      "model": "gemma4-sm8750",
+      "backend": "CPU",
+      "outcome": "application_or_validation_failure",
+      "phase_slices": 1,
+      "trace_available": true,
+      "complete_phase_slices": 0,
+      "application_cpu_available": true,
+      "observed_application_cpu_ms": 1085.405119,
+      "independent_npu_operator_placement_verified": false
+    },
+    {
+      "cohort": "Kernel",
+      "run": "hardware17-npu-fastvlm-sm8750",
+      "model": "fastvlm-sm8750",
+      "backend": "NPU",
+      "outcome": "captured",
+      "phase_slices": 3,
+      "trace_available": true,
+      "complete_phase_slices": 3,
+      "application_cpu_available": true,
+      "observed_application_cpu_ms": 4423.220109,
+      "independent_npu_operator_placement_verified": false
+    },
+    {
+      "cohort": "Kernel",
+      "run": "hardware17-npu-gemma4-sm8750",
+      "model": "gemma4-sm8750",
+      "backend": "NPU",
+      "outcome": "captured",
+      "phase_slices": 3,
+      "trace_available": true,
+      "complete_phase_slices": 3,
+      "application_cpu_available": true,
+      "observed_application_cpu_ms": 5810.92992,
+      "independent_npu_operator_placement_verified": false
+    }
+  ],
+  "policy": "Separate prospective cohorts; no pooling, replacement of exclusions or independent-replication claim for calls within a capture",
+  "hardware": {
+    "status": "complete",
+    "conditions": [
+      {
+        "cohort": "Kernel",
+        "run": "hardware17-npu-fastvlm-sm8750",
+        "model": "fastvlm-sm8750",
+        "backend": "NPU",
+        "outcome": "captured",
+        "phase_slices": 3,
+        "trace_available": true,
+        "complete_phase_slices": 3,
+        "application_cpu_available": true,
+        "observed_application_cpu_ms": 4423.220109,
+        "independent_npu_operator_placement_verified": false,
+        "accepted_requests": 3,
+        "observed_success_rows": 3,
+        "planned_calls": 3,
+        "started_calls": 3,
+        "unlaunched_calls": 0,
+        "initialization_error_tag": null,
+        "median_sdk_call_s": 1.351573072,
+        "individual_sdk_call_s": [
+          1.898160936,
+          1.351573072,
+          1.307083228
+        ],
+        "start_skin": 28.438,
+        "start_battery_hal": 30.0,
+        "start_nsp0": 30.5,
+        "start_severity": 0,
+        "libraries_recorded": true,
+        "qnn_library_loaded": true,
+        "observed_application_vendor_events": 0,
+        "vendor_event_evidence_available": false,
+        "vendor_event_coverage": "unverified_coverage_no_absence_claim",
+        "setup_metadata": [
+          {
+            "name": "ftrace_latest_data_start_ns",
+            "str_value": "[NULL]",
+            "int_value": "0"
+          }
+        ],
+        "power_counter_rows": 183,
+        "power_counter_tracks": [
+          "batt.capacity_pct",
+          "batt.charge_uah",
+          "batt.current_ua"
+        ],
+        "observed_power_rail_series": [],
+        "energy_per_request_validated": false
+      },
+      {
+        "cohort": "Kernel",
+        "run": "hardware17-npu-gemma4-sm8750",
+        "model": "gemma4-sm8750",
+        "backend": "NPU",
+        "outcome": "captured",
+        "phase_slices": 3,
+        "trace_available": true,
+        "complete_phase_slices": 3,
+        "application_cpu_available": true,
+        "observed_application_cpu_ms": 5810.92992,
+        "independent_npu_operator_placement_verified": false,
+        "accepted_requests": 3,
+        "observed_success_rows": 3,
+        "planned_calls": 3,
+        "started_calls": 3,
+        "unlaunched_calls": 0,
+        "initialization_error_tag": null,
+        "median_sdk_call_s": 2.609379166,
+        "individual_sdk_call_s": [
+          3.174010728,
+          2.578361562,
+          2.609379166
+        ],
+        "start_skin": 29.332,
+        "start_battery_hal": 30.0,
+        "start_nsp0": 32.0,
+        "start_severity": 0,
+        "libraries_recorded": true,
+        "qnn_library_loaded": true,
+        "observed_application_vendor_events": 0,
+        "vendor_event_evidence_available": false,
+        "vendor_event_coverage": "unverified_coverage_no_absence_claim",
+        "setup_metadata": [
+          {
+            "name": "ftrace_latest_data_start_ns",
+            "str_value": "[NULL]",
+            "int_value": "0"
+          }
+        ],
+        "power_counter_rows": 183,
+        "power_counter_tracks": [
+          "batt.capacity_pct",
+          "batt.charge_uah",
+          "batt.current_ua"
+        ],
+        "observed_power_rail_series": [],
+        "energy_per_request_validated": false
+      }
+    ]
+  },
+  "model_metadata": {
+    "status": "complete",
+    "result": {
+      "observations": [
+        {
+          "model": "fastvlm-sm8750",
+          "max_context_tokens": 1280,
+          "dynamic_context": false,
+          "minimum_runtime_version": null,
+          "model_type": "LLM",
+          "supportedBackends": [
+            "CPU",
+            "GPU",
+            "NPU"
+          ],
+          "npuBrand": "UNKNOWN",
+          "socName": null,
+          "model_default_sampler_metadata": {
+            "model_default_TopK": 0,
+            "model_default_TopP": 0,
+            "model_default_Temperature": 0
+          },
+          "status": "read_with_unavailable_fields",
+          "field_errors": {
+            "model_default_Seed": "java.lang.NoSuchMethodException: com.google.ai.edge.litertlm.SamplerParameters.getSeed []"
+          }
+        },
+        {
+          "model": "gemma4-sm8750",
+          "max_context_tokens": 4224,
+          "dynamic_context": false,
+          "minimum_runtime_version": null,
+          "model_type": "LLM",
+          "supportedBackends": [
+            "CPU",
+            "GPU",
+            "NPU"
+          ],
+          "npuBrand": "QUALCOMM",
+          "socName": "SM8750",
+          "model_default_sampler_metadata": {
+            "model_default_TopK": 0,
+            "model_default_TopP": 0,
+            "model_default_Temperature": 0
+          },
+          "status": "read_with_unavailable_fields",
+          "field_errors": {
+            "model_default_Seed": "java.lang.NoSuchMethodException: com.google.ai.edge.litertlm.SamplerParameters.getSeed []"
+          }
+        }
+      ],
+      "inference_executed": false,
+      "scope": "Metadata declarations, not independent backend execution or realized sampling verification",
+      "target_apk_unchanged": true,
+      "target_apk_sha256": "26869ff911f44e198df7f80fdfc45ffd753a5ac6c2ba9b2fb22ef13429c85aba",
+      "runtime": "LiteRT-LM 0.18.0"
+    }
+  }
+}

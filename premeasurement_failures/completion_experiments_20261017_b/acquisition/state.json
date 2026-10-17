@@ -1,0 +1,14 @@
+{
+  "started_utc": "2026-10-17T04:30:50.723662+00:00",
+  "status": "stopped_with_error",
+  "phase": "calibration",
+  "completed": [],
+  "thermal_stops": [],
+  "excluded": [],
+  "attempted": [],
+  "units": [],
+  "reference_skin": null,
+  "current_run": "idle-calibration",
+  "error": "adb: device 'handset-01' not found",
+  "finished_utc": "2026-10-17T04:37:16.274360+00:00"
+}

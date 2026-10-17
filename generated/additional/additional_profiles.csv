@@ -1,0 +1,11 @@
+cohort,run,model,backend,outcome,phase_slices,complete_phase_slices,application_cpu_available,observed_application_cpu_ms,independent_npu_operator_placement_verified
+Retry,c17e-profile-fixed-fastvlm-sm8750,fastvlm-sm8750,NPU,captured,3,3,True,4343.900985,False
+Retry,c17e-profile-fixed-gemma4-sm8750,gemma4-sm8750,NPU,captured,3,3,True,5904.30423,False
+Grid,backend17-npu-fastvlm-sm8750,fastvlm-sm8750,NPU,captured,3,3,True,4293.720012,False
+Grid,backend17-cpu-fastvlm-sm8750,fastvlm-sm8750,CPU,application_or_validation_failure,1,0,True,1008.27287,False
+Grid,backend17-gpu-fastvlm-sm8750,fastvlm-sm8750,GPU,application_or_validation_failure,1,0,True,1003.348502,False
+Grid,backend17-npu-gemma4-sm8750,gemma4-sm8750,NPU,captured,3,3,True,5942.773706,False
+Grid,backend17-gpu-gemma4-sm8750,gemma4-sm8750,GPU,application_or_validation_failure,1,0,True,1089.828858,False
+Grid,backend17-cpu-gemma4-sm8750,gemma4-sm8750,CPU,application_or_validation_failure,1,0,True,1085.405119,False
+Kernel,hardware17-npu-fastvlm-sm8750,fastvlm-sm8750,NPU,captured,3,3,True,4423.220109,False
+Kernel,hardware17-npu-gemma4-sm8750,gemma4-sm8750,NPU,captured,3,3,True,5810.92992,False

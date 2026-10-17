@@ -1,0 +1,14 @@
+{
+  "started_utc": "2026-10-17T06:44:03.783534+00:00",
+  "status": "stopped_with_error",
+  "phase": "waiting_connection",
+  "completed": [],
+  "thermal_stops": [],
+  "excluded": [],
+  "attempted": [],
+  "units": [],
+  "reference_skin": null,
+  "current_run": "charge-and-idle",
+  "error": "Charge/idle gate not reached within thirty minutes",
+  "finished_utc": "2026-10-17T07:44:39.770981+00:00"
+}

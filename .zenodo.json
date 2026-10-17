@@ -1,0 +1,28 @@
+{
+  "title": "Thermal-aware measurement and reproducibility of on-device generative AI: Code and experimental data",
+  "upload_type": "dataset",
+  "description": "<p>Complete code and numerical evidence for a single-handset study on HONOR Magic V5 using LiteRT-LM 0.18.0: 119 valid primary fixed-work requests (59 complete pairs), 38 complete monitoring pairs, 12 severe-stop repeated-use trajectories with 892 dependent requests, and separately retained supplementary acquisitions, six requested-backend conditions, kernel/power capability probes, and model metadata. Original failed and excluded dispositions are preserved; cohorts are not pooled.</p><p>Includes Android and host acquisition source, pinned configurations and dependencies, numerical observations, reproducible analysis and figures, and 48 portable checks. One complete archive; no previous release or split assembly is required. Requested NPU execution is not independently verified operator placement. USB battery counters do not establish calibrated device energy per request. Model weights, vendor binaries, system-wide private traces, credentials, and manuscripts are excluded.</p>",
+  "access_right": "open",
+  "creators": [
+    {
+      "name": "Nguyen, The-Vinh",
+      "affiliation": "Thai Nguyen University of Information and Communication Technology"
+    }
+  ],
+  "keywords": [
+    "on-device generative AI",
+    "thermal measurement",
+    "mobile inference",
+    "reproducibility",
+    "LiteRT-LM"
+  ],
+  "version": "1.1.0",
+  "license": "apache2.0",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/ictu-se/thermal-aware-mobile-inference",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

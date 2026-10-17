@@ -1,0 +1,5 @@
+{
+  "utc": "2026-10-17T13:02:23.318684+00:00",
+  "previous_protocol_sha256": "83b6821b968784343842747b1f2d28aefc7b7e7a276568f33c7b095d9561d9c6",
+  "reason": "Clarify the inherited stop wording for two NPU-only conditions before any hardware-event observation; gates, budgets, schedule and code unchanged."
+}

@@ -1,0 +1,7 @@
+run,kind,model,block,segment,workload,monitoring,start_ns,duration_s,actual_prefill,actual_decode,decode_tps,start_skin,start_battery_hal,start_nsp0,start_severity
+c17e-p0-overhead-0-fastvlm-sm8750-minimal,overhead,fastvlm-sm8750,0,initial,short,minimal,374182563548435,1.700159426,128,64,82.19789464220638,28.437,30.0,30.8,0
+c17e-p0-overhead-1-fastvlm-sm8750-full,overhead,fastvlm-sm8750,0,initial,short,full,374272821950171,1.472714687,128,64,92.06358407684304,28.434,29.0,30.5,0
+c17e-p1-overhead-0-gemma4-sm8750-full,overhead,gemma4-sm8750,0,initial,long,full,374337511172490,8.66612333,512,256,37.36321289083901,28.297,29.0,30.8,0
+c17e-p1-overhead-1-gemma4-sm8750-minimal,overhead,gemma4-sm8750,0,initial,long,minimal,374441384473128,7.597958486,512,256,39.73894444865309,28.566,29.0,31.6,0
+c17e-p2-main-0-gemma4-sm8750-full,main,gemma4-sm8750,0,initial,short,full,374543113014964,2.362463593,128,64,44.42799124749968,29.004,30.0,31.2,0
+c17e-p2-main-1-fastvlm-sm8750-full,main,fastvlm-sm8750,0,initial,short,full,374630560220764,1.426235885,128,64,96.65522436446597,29.199,30.0,30.8,0

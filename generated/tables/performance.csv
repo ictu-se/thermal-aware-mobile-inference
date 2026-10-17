@@ -1,0 +1,5 @@
+model,prefill_decode_budget,requests,mean_call_s,median_call_s,sd_call_s,mean_decode_tokens_per_s
+FastVLM,128/64,29,1.435,1.420,0.065,96.7
+FastVLM,512/256,30,3.688,3.630,0.139,97.7
+Gemma,128/64,30,2.410,2.322,0.257,43.9
+Gemma,512/256,30,6.977,6.832,0.424,42.8

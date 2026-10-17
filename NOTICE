@@ -1,0 +1,4 @@
+Thermal-aware mobile inference measurements
+Copyright 2026 Nguyen The-Vinh
+
+Original measurement source, experiment data, and documentation in this release are distributed under Apache License 2.0. The Gradle wrapper retains its upstream copyright and Apache-2.0 notices. Model weights, Android SDK/runtime packages, and Qualcomm native libraries are not redistributed and remain subject to their upstream terms. Pinned upstream download locations and checksums are provided for reconstruction. No manuscript or response letter is included.

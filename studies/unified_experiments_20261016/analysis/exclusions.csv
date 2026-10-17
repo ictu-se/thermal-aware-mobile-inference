@@ -1,0 +1,4 @@
+run,reason,kind
+u16-overhead-fastvlm-sm8750-short-p1-full,recovery_timeout,overhead
+u16-overhead-gemma4-sm8750-long-p2-minimal,user_interruption_before_launch,overhead
+u16-b2-short-p3-fastvlm-sm8750,recovery_timeout,main

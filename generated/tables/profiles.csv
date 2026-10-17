@@ -1,0 +1,7 @@
+capture_cohort,model,mode,phase_slices,app_cpu_attribution
+Original,FastVLM,fixed,3,yes
+Original,Gemma,fixed,0,unavailable
+Original,FastVLM,stream,1,yes
+Original,Gemma,stream,1,yes
+Diagnostic,FastVLM,fixed,--,unavailable
+Diagnostic,Gemma,fixed,--,unavailable

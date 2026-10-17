@@ -1,0 +1,4 @@
+condition,package_or_models,full_or_fastvlm_s,minimal_or_gemma_s,difference_s
+Monitoring,FastVLM,--,1.732,--
+Monitoring,Gemma,--,--,--
+Main short,FastVLM/Gemma,--,--,--

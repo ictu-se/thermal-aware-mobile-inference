@@ -1,0 +1,10 @@
+{
+  "reference": {
+    "skin": 32.662499999999994,
+    "battery_hal": 34.0,
+    "nsp0": 35.1
+  },
+  "samples": 118,
+  "utc": "2026-10-16T09:34:33.765480+00:00",
+  "method": "median of 600-second near-full-charge idle calibration"
+}

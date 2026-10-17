@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-17T12:19:47.438422+00:00",
+  "status": "restored",
+  "observed": "0",
+  "previous_attempts": [
+    {
+      "utc": "2026-10-17T11:51:11.978366+00:00",
+      "status": "restore_pending_device_unavailable",
+      "error": "Command '['adb', '-s', 'handset-01', 'shell', 'settings', 'get', 'global', 'stay_on_while_plugged_in']' returned non-zero exit status 1."
+    }
+  ]
+}

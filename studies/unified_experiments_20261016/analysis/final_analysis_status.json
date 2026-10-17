@@ -1,0 +1,5 @@
+{
+  "returncode": 0,
+  "stdout": "{\n  \"status\": \"complete\",\n  \"valid_requests_by_kind\": {\n    \"overhead\": 78,\n    \"main\": 119,\n    \"repeated\": 892\n  },\n  \"repeated_outcomes\": {\n    \"thermal_stop\": 12\n  }\n}\n",
+  "stderr": ""
+}

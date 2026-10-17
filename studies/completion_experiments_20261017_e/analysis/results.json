@@ -1,0 +1,132 @@
+{
+  "campaign": "completion-20261017-c17e",
+  "status": "complete",
+  "valid_requests_by_kind": {
+    "overhead": 4,
+    "main": 2
+  },
+  "completed_main_pairs": 1,
+  "completed_monitoring_pairs": 2,
+  "repeated_outcomes": {},
+  "exclusion_reasons": {},
+  "bootstrap": {
+    "method": "percentile, whole segment-by-scheduled-block resampling",
+    "resamples": 10000,
+    "seed": 20261016
+  },
+  "main": {
+    "short": {
+      "differences": {
+        "n": 1,
+        "mean": -0.936227708,
+        "median": -0.936227708,
+        "sd": null,
+        "mad": 0.0
+      },
+      "descriptive_block_interval_95": null,
+      "sensitivity": {
+        "adjusted_at_equal_start_skin_s": null,
+        "exclude_first_pair_per_block": {
+          "n": 0
+        },
+        "starting_skin_difference_at_most_0_5": {
+          "n": 1,
+          "mean": -0.936227708,
+          "median": -0.936227708,
+          "sd": null,
+          "mad": 0.0
+        }
+      }
+    },
+    "long": {
+      "differences": {
+        "n": 0
+      },
+      "descriptive_block_interval_95": null,
+      "sensitivity": {}
+    }
+  },
+  "overhead": {
+    "fastvlm-sm8750/short": {
+      "full_minus_minimal_s": {
+        "n": 1,
+        "mean": -0.22744473899999984,
+        "median": -0.22744473899999984,
+        "sd": null,
+        "mad": 0.0
+      },
+      "relative_difference_percent": {
+        "n": 1,
+        "mean": -13.377847719558499,
+        "median": -13.377847719558499,
+        "sd": null,
+        "mad": 0.0
+      },
+      "descriptive_block_interval_95": null
+    },
+    "fastvlm-sm8750/long": {
+      "full_minus_minimal_s": {
+        "n": 0
+      },
+      "relative_difference_percent": {
+        "n": 0
+      },
+      "descriptive_block_interval_95": null
+    },
+    "gemma4-sm8750/short": {
+      "full_minus_minimal_s": {
+        "n": 0
+      },
+      "relative_difference_percent": {
+        "n": 0
+      },
+      "descriptive_block_interval_95": null
+    },
+    "gemma4-sm8750/long": {
+      "full_minus_minimal_s": {
+        "n": 1,
+        "mean": 1.068164844,
+        "median": 1.068164844,
+        "sd": null,
+        "mad": 0.0
+      },
+      "relative_difference_percent": {
+        "n": 1,
+        "mean": 14.058576997600092,
+        "median": 14.058576997600092,
+        "sd": null,
+        "mad": 0.0
+      },
+      "descriptive_block_interval_95": null
+    }
+  },
+  "limits": "Single handset, external power, actual ambient temperature unmeasured; separate acquisition with upper-only global baseline bounds and symmetric within-pair multi-sensor matching. Explicit pause/resume creates separate labeled acquisition segments, not independent environmental resets. Minimal telemetry is not zero overhead. No independent NPU placement proof.",
+  "requests_by_segment_and_kind": {
+    "initial/overhead": 4,
+    "initial/main": 2
+  },
+  "monitoring_by_segment": {
+    "initial": {
+      "fastvlm-sm8750/short": {
+        "n": 1,
+        "mean": -0.22744473899999984,
+        "median": -0.22744473899999984,
+        "sd": null,
+        "mad": 0.0
+      },
+      "fastvlm-sm8750/long": {
+        "n": 0
+      },
+      "gemma4-sm8750/short": {
+        "n": 0
+      },
+      "gemma4-sm8750/long": {
+        "n": 1,
+        "mean": 1.068164844,
+        "median": 1.068164844,
+        "sd": null,
+        "mad": 0.0
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+model,backend,outcome,accepted_requests,planned_calls,started_calls,unlaunched_calls,initialization_error_tag,median_sdk_call_s,start_skin,start_battery_hal,start_nsp0,start_severity,application_cpu_available,observed_application_cpu_ms,complete_phase_slices,libraries_recorded,qnn_library_loaded
+fastvlm-sm8750,NPU,captured,3,3,3,0,,1.25763401,28.909,30.0,31.6,0,True,4293.720012,3,True,True
+fastvlm-sm8750,CPU,application_or_validation_failure,0,3,1,2,input_tensor_not_found,,28.64,30.0,31.2,0,True,1008.27287,0,False,
+fastvlm-sm8750,GPU,application_or_validation_failure,0,3,1,2,input_tensor_not_found,,28.548,29.0,31.2,0,True,1003.348502,0,False,
+gemma4-sm8750,NPU,captured,3,3,3,0,,2.385182759,28.945,29.0,30.8,0,True,5942.773706,3,True,True
+gemma4-sm8750,GPU,application_or_validation_failure,0,3,1,2,input_tensor_not_found,,29.169,30.0,31.6,0,True,1089.828858,0,False,
+gemma4-sm8750,CPU,application_or_validation_failure,0,3,1,2,input_tensor_not_found,,28.826,30.0,31.2,0,True,1085.405119,0,False,
